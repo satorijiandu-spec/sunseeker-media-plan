@@ -716,6 +716,10 @@ tbody tr.total-row td { color: #0b3d2e; border-top: 2px solid #d4ddd7; }
       </a>
       <a class="toc-item" href="#ch9">
         <div class="toc-num">09</div>
+        <div class="toc-label">SOP & KPI<small>Landing page test flow & ROI-gated scaling logic</small></div>
+      </a>
+      <a class="toc-item" href="#ch10">
+        <div class="toc-num">10</div>
         <div class="toc-label">Timeline & Milestones<small>5-phase roadmap aligned to mowing season</small></div>
       </a>
     </div>
@@ -2623,10 +2627,381 @@ tbody tr.total-row td { color: #0b3d2e; border-top: 2px solid #d4ddd7; }
 
 </div>
 
-<!-- ==================== CHAPTER 9: TIMELINE & MILESTONES ==================== -->
+<!-- ==================== CHAPTER 9: SOP & KPI ==================== -->
 <div class="chapter" id="ch9">
   <div class="chapter-header">
     <div class="chapter-num">Chapter 09</div>
+    <h2>SOP & KPI</h2>
+    <p class="chapter-desc">落地页测试的标准流程与"ROI 达标才放量"的投放纪律——用流程图和门槛模型替代文字。</p>
+  </div>
+
+  <!-- ===== PART 1: Landing Page Test SOP ===== -->
+  <div class="card">
+    <h3>Landing Page 测试闭环 SOP</h3>
+    <p style="font-size:0.85rem; color:#6b7c72; margin-bottom:24px;">以 Demand Gen 为起点，通过落地页分层 → 受众沉淀 → 再营销回收 → PMax 放大，形成完整的测试闭环。</p>
+
+    <!-- 3-Page Explanation -->
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:28px;">
+      <div style="background:#e6f5ec; border-radius:12px; padding:18px; text-align:center; border:2px solid #1a7a52;">
+        <div style="font-size:1.6rem; margin-bottom:6px;">🏡</div>
+        <div style="font-size:0.82rem; font-weight:800; color:#0b3d2e; margin-bottom:4px;">承接页 Yard-Fit</div>
+        <div style="font-size:0.75rem; color:#3a4a40; line-height:1.5;">院子适配测评<br>面积 / 坡度 / 复杂度</div>
+      </div>
+      <div style="background:#eef4fe; border-radius:12px; padding:18px; text-align:center; border:2px solid #3b82f6;">
+        <div style="font-size:1.6rem; margin-bottom:6px;">🏆</div>
+        <div style="font-size:0.82rem; font-weight:800; color:#1e3a5f; margin-bottom:4px;">Evidence Page</div>
+        <div style="font-size:0.75rem; color:#3a4a40; line-height:1.5;">奖项 / 测评 / 安全认证<br>建立品牌信任</div>
+      </div>
+      <div style="background:#fef9ee; border-radius:12px; padding:18px; text-align:center; border:2px solid #f0b429;">
+        <div style="font-size:1.6rem; margin-bottom:6px;">🛒</div>
+        <div style="font-size:0.82rem; font-weight:800; color:#6b4a0a; margin-bottom:4px;">Sale Page 产品页</div>
+        <div style="font-size:0.75rem; color:#3a4a40; line-height:1.5;">产品规格 / 价格<br>直接转化购买</div>
+      </div>
+    </div>
+
+    <!-- FLOWCHART: Linear funnel -->
+    <div style="position:relative; padding:24px 0;">
+
+      <!-- Step 1: Demand Gen Cold Traffic -->
+      <div style="display:flex; align-items:center; justify-content:center; margin-bottom:8px;">
+        <div style="background:linear-gradient(135deg,#4c1d95,#7c3aed); color:#fff; padding:16px 32px; border-radius:14px; font-weight:700; font-size:0.9rem; text-align:center; min-width:340px; box-shadow:0 4px 14px rgba(124,58,237,0.3);">
+          <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1.5px; opacity:0.8; margin-bottom:4px;">Step 1</div>
+          Demand Gen 引流
+          <div style="font-size:0.72rem; opacity:0.8; margin-top:4px;">Cold Audience · 视频/图片素材</div>
+        </div>
+      </div>
+
+      <!-- Arrow + LP label -->
+      <div style="text-align:center; font-size:1.2rem; color:#6b7c72; line-height:1; margin:4px 0;">▼</div>
+      <div style="text-align:center; margin:2px 0 6px;"><span style="font-size:0.72rem; font-weight:600; color:#6b7c72; letter-spacing:0.5px;">落地页</span></div>
+
+      <!-- Landing Page: 承接页 only (highlighted) -->
+      <div style="display:flex; justify-content:center; margin:4px 0 8px;">
+        <div style="background:#e6f5ec; border:3px solid #1a7a52; border-radius:12px; padding:12px 32px; font-size:0.88rem; font-weight:800; color:#0b3d2e; text-align:center; box-shadow:0 2px 8px rgba(26,122,82,0.15);">
+          🏡 承接页 Yard-Fit
+          <div style="font-size:0.72rem; font-weight:400; color:#3a4a40; margin-top:2px;">院子适配测评 — 面积 / 坡度 / 复杂度</div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="text-align:center; font-size:1.2rem; color:#6b7c72; line-height:1; margin:4px 0;">▼</div>
+
+      <!-- Step 2: Build Audience (承接页 visitors only) -->
+      <div style="display:flex; align-items:center; justify-content:center; margin:8px 0;">
+        <div style="background:linear-gradient(135deg,#0b3d2e,#1a7a52); color:#fff; padding:16px 32px; border-radius:14px; font-weight:700; font-size:0.9rem; text-align:center; min-width:340px; box-shadow:0 4px 14px rgba(26,122,82,0.3);">
+          <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1.5px; opacity:0.8; margin-bottom:4px;">Step 2</div>
+          建自定义受众 A
+          <div style="font-size:0.72rem; opacity:0.8; margin-top:4px;">受众 = 到过承接页的访客</div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="text-align:center; font-size:1.2rem; color:#6b7c72; line-height:1; margin:4px 0;">▼</div>
+
+      <!-- Step 3: DG Remarketing → Evidence Page -->
+      <div style="display:flex; align-items:center; justify-content:center; margin:8px 0;">
+        <div style="background:linear-gradient(135deg,#4c1d95,#7c3aed); color:#fff; padding:16px 32px; border-radius:14px; font-weight:700; font-size:0.9rem; text-align:center; min-width:340px; box-shadow:0 4px 14px rgba(124,58,237,0.3);">
+          <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1.5px; opacity:0.8; margin-bottom:4px;">Step 3</div>
+          Demand Gen 再营销
+          <div style="font-size:0.72rem; opacity:0.8; margin-top:4px;">定位受众 A（到过承接页的人）</div>
+        </div>
+      </div>
+
+      <!-- Arrow + LP label -->
+      <div style="text-align:center; font-size:1.2rem; color:#6b7c72; line-height:1; margin:4px 0;">▼</div>
+      <div style="text-align:center; margin:2px 0 6px;"><span style="font-size:0.72rem; font-weight:600; color:#6b7c72; letter-spacing:0.5px;">落地页</span></div>
+
+      <!-- Landing Page: Evidence Page (highlighted) -->
+      <div style="display:flex; justify-content:center; margin:4px 0 8px;">
+        <div style="background:#eef4fe; border:3px solid #3b82f6; border-radius:12px; padding:12px 32px; font-size:0.88rem; font-weight:800; color:#1e3a5f; text-align:center; box-shadow:0 2px 8px rgba(59,130,246,0.15);">
+          🏆 Evidence Page
+          <div style="font-size:0.72rem; font-weight:400; color:#3a4a40; margin-top:2px;">奖项 / 测评 / 安全认证 — 建立品牌信任</div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="text-align:center; font-size:1.2rem; color:#6b7c72; line-height:1; margin:4px 0;">▼</div>
+
+      <!-- Step 4: Build High-Intent Audience (承接页 + Evidence 双触达) -->
+      <div style="display:flex; align-items:center; justify-content:center; margin:8px 0;">
+        <div style="background:linear-gradient(135deg,#0b3d2e,#145a3e); color:#fff; padding:16px 32px; border-radius:14px; font-weight:700; font-size:0.9rem; text-align:center; min-width:380px; box-shadow:0 4px 14px rgba(11,61,46,0.3);">
+          <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1.5px; opacity:0.8; margin-bottom:4px;">Step 4</div>
+          建高意向受众 B
+          <div style="font-size:0.72rem; opacity:0.8; margin-top:4px;">受众 = 既到过承接页 <strong>又</strong> 到过 Evidence Page 的人</div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="text-align:center; font-size:1.2rem; color:#6b7c72; line-height:1; margin:4px 0;">▼</div>
+
+      <!-- Step 5: Feed into PMax -->
+      <div style="display:flex; align-items:center; justify-content:center; margin:8px 0;">
+        <div style="background:linear-gradient(135deg,#92400e,#f59e0b); color:#fff; padding:16px 32px; border-radius:14px; font-weight:700; font-size:0.9rem; text-align:center; min-width:380px; box-shadow:0 4px 14px rgba(245,158,11,0.3);">
+          <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1.5px; opacity:0.8; margin-bottom:4px;">Step 5</div>
+          PMax Audience Signal
+          <div style="font-size:0.72rem; opacity:0.8; margin-top:4px;">受众 B 加入 PMax — 专建测试系列 / 放入常规系列</div>
+        </div>
+      </div>
+
+      <!-- Loop Arrow -->
+      <div style="text-align:center; margin:12px 0 4px;">
+        <div style="display:inline-block; background:#f0f5f2; border:2px dashed #1a7a52; border-radius:8px; padding:8px 24px; font-size:0.78rem; font-weight:600; color:#1a7a52;">
+          ↻ 循环迭代 — 胜出 LP + 受众组合 → 下一轮放大
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOP Step Summary (5 steps) -->
+  <div class="card">
+    <h3>SOP 步骤速查</h3>
+    <div style="display:grid; grid-template-columns:repeat(5,1fr); gap:10px;">
+      <div style="text-align:center; padding:14px 6px;">
+        <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg,#4c1d95,#7c3aed); color:#fff; font-weight:800; font-size:0.85rem; display:flex; align-items:center; justify-content:center; margin:0 auto 10px;">1</div>
+        <div style="font-size:0.78rem; font-weight:700; color:#0b3d2e; margin-bottom:3px;">DG 引流</div>
+        <div style="font-size:0.7rem; color:#6b7c72; line-height:1.4;">冷受众 →<br>承接页</div>
+      </div>
+      <div style="text-align:center; padding:14px 6px;">
+        <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg,#0b3d2e,#1a7a52); color:#fff; font-weight:800; font-size:0.85rem; display:flex; align-items:center; justify-content:center; margin:0 auto 10px;">2</div>
+        <div style="font-size:0.78rem; font-weight:700; color:#0b3d2e; margin-bottom:3px;">建受众 A</div>
+        <div style="font-size:0.7rem; color:#6b7c72; line-height:1.4;">承接页<br>访客</div>
+      </div>
+      <div style="text-align:center; padding:14px 6px;">
+        <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg,#4c1d95,#7c3aed); color:#fff; font-weight:800; font-size:0.85rem; display:flex; align-items:center; justify-content:center; margin:0 auto 10px;">3</div>
+        <div style="font-size:0.78rem; font-weight:700; color:#0b3d2e; margin-bottom:3px;">DG 再营销</div>
+        <div style="font-size:0.7rem; color:#6b7c72; line-height:1.4;">受众 A →<br>Evidence Page</div>
+      </div>
+      <div style="text-align:center; padding:14px 6px;">
+        <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg,#0b3d2e,#145a3e); color:#fff; font-weight:800; font-size:0.85rem; display:flex; align-items:center; justify-content:center; margin:0 auto 10px;">4</div>
+        <div style="font-size:0.78rem; font-weight:700; color:#0b3d2e; margin-bottom:3px;">建受众 B</div>
+        <div style="font-size:0.7rem; color:#6b7c72; line-height:1.4;">承接页 +<br>Evidence 双触达</div>
+      </div>
+      <div style="text-align:center; padding:14px 6px;">
+        <div style="width:42px; height:42px; border-radius:50%; background:linear-gradient(135deg,#92400e,#f59e0b); color:#fff; font-weight:800; font-size:0.85rem; display:flex; align-items:center; justify-content:center; margin:0 auto 10px;">5</div>
+        <div style="font-size:0.78rem; font-weight:700; color:#0b3d2e; margin-bottom:3px;">PMax Signal</div>
+        <div style="font-size:0.7rem; color:#6b7c72; line-height:1.4;">受众 B →<br>PMax 放大</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PART 2: KPI Gate Model ===== -->
+  <div class="card">
+    <h3>KPI 门槛模型 — ROI 达标才放量</h3>
+    <p style="font-size:0.85rem; color:#6b7c72; margin-bottom:24px;">预算不是"按计划花满"，而是每一步都有 ROI 门槛——达标才进入下一阶段，不达标先优化再走。</p>
+
+    <!-- Gate Visualization -->
+    <div style="position:relative;">
+
+      <!-- Gate 1 -->
+      <div style="display:flex; align-items:stretch; margin-bottom:4px;">
+        <div style="width:80px; flex-shrink:0; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+          <div style="width:48px; height:48px; border-radius:50%; background:linear-gradient(135deg,#3b82f6,#60a5fa); display:flex; align-items:center; justify-content:center;">
+            <span style="color:#fff; font-weight:800; font-size:0.85rem;">G1</span>
+          </div>
+        </div>
+        <div style="flex:1; background:#eef4fe; border:2px solid #3b82f6; border-radius:12px; padding:16px 20px; display:flex; align-items:center; justify-content:space-between; gap:16px;">
+          <div>
+            <div style="font-size:0.92rem; font-weight:700; color:#1e3a5f;">Launch Gate — 启动测试</div>
+            <div style="font-size:0.78rem; color:#3a4a40; margin-top:4px;">PMax 学习期结束 · Tracking 数据回传正常 · 首批转化确认</div>
+          </div>
+          <div style="text-align:center; min-width:80px;">
+            <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1px; color:#3b82f6; font-weight:700;">门槛</div>
+            <div style="font-size:1.1rem; font-weight:800; color:#1e3a5f;">Conv ≥ 1</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="margin-left:40px; text-align:left; padding-left:16px; color:#1a7a52; font-size:0.8rem; font-weight:600; margin:6px 0 6px 80px;">✓ 达标 ▼</div>
+
+      <!-- Gate 2 -->
+      <div style="display:flex; align-items:stretch; margin-bottom:4px;">
+        <div style="width:80px; flex-shrink:0; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+          <div style="width:48px; height:48px; border-radius:50%; background:linear-gradient(135deg,#f0b429,#fbbf24); display:flex; align-items:center; justify-content:center;">
+            <span style="color:#fff; font-weight:800; font-size:0.85rem;">G2</span>
+          </div>
+        </div>
+        <div style="flex:1; background:#fef9ee; border:2px solid #f0b429; border-radius:12px; padding:16px 20px; display:flex; align-items:center; justify-content:space-between; gap:16px;">
+          <div>
+            <div style="font-size:0.92rem; font-weight:700; color:#6b4a0a;">Efficiency Gate — 效率验证</div>
+            <div style="font-size:0.78rem; color:#3a4a40; margin-top:4px;">新账户起量期，ROI 不要求达标，但须呈上升趋势 · CPA 可控 · 搜索词质量合格</div>
+          </div>
+          <div style="text-align:center; min-width:100px;">
+            <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1px; color:#d97706; font-weight:700;">门槛</div>
+            <div style="font-size:1.1rem; font-weight:800; color:#6b4a0a;">ROI ↑ 趋势</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="margin-left:40px; text-align:left; padding-left:16px; color:#1a7a52; font-size:0.8rem; font-weight:600; margin:6px 0 6px 80px;">✓ 达标 ▼</div>
+
+      <!-- Gate 3 -->
+      <div style="display:flex; align-items:stretch; margin-bottom:4px;">
+        <div style="width:80px; flex-shrink:0; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+          <div style="width:48px; height:48px; border-radius:50%; background:linear-gradient(135deg,#1a7a52,#22956a); display:flex; align-items:center; justify-content:center;">
+            <span style="color:#fff; font-weight:800; font-size:0.85rem;">G3</span>
+          </div>
+        </div>
+        <div style="flex:1; background:#e6f5ec; border:2px solid #1a7a52; border-radius:12px; padding:16px 20px; display:flex; align-items:center; justify-content:space-between; gap:16px;">
+          <div>
+            <div style="font-size:0.92rem; font-weight:700; color:#0b4d2e;">Scale Gate — 放量</div>
+            <div style="font-size:0.78rem; color:#3a4a40; margin-top:4px;">ROI 持续高于目标 2 周+ · Impression Share 有提升空间 · 预算未打满</div>
+          </div>
+          <div style="text-align:center; min-width:80px;">
+            <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1px; color:#1a7a52; font-weight:700;">门槛</div>
+            <div style="font-size:1.1rem; font-weight:800; color:#0b4d2e;">ROI ≥ Target</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="margin-left:40px; text-align:left; padding-left:16px; color:#1a7a52; font-size:0.8rem; font-weight:600; margin:6px 0 6px 80px;">✓ 达标 ▼</div>
+
+      <!-- Gate 4 -->
+      <div style="display:flex; align-items:stretch; margin-bottom:4px;">
+        <div style="width:80px; flex-shrink:0; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+          <div style="width:48px; height:48px; border-radius:50%; background:linear-gradient(135deg,#0b3d2e,#145a3e); display:flex; align-items:center; justify-content:center;">
+            <span style="color:#fff; font-weight:800; font-size:0.85rem;">G4</span>
+          </div>
+        </div>
+        <div style="flex:1; background:#d5f0e0; border:2px solid #0b3d2e; border-radius:12px; padding:16px 20px; display:flex; align-items:center; justify-content:space-between; gap:16px;">
+          <div>
+            <div style="font-size:0.92rem; font-weight:700; color:#0b3d2e;">Expand Gate — 拓渠道</div>
+            <div style="font-size:0.78rem; color:#3a4a40; margin-top:4px;">核心渠道稳定盈利 · 新增 Demand Gen / Search Product 品类词拓量</div>
+          </div>
+          <div style="text-align:center; min-width:80px;">
+            <div style="font-size:0.68rem; text-transform:uppercase; letter-spacing:1px; color:#0b3d2e; font-weight:700;">门槛</div>
+            <div style="font-size:1.1rem; font-weight:800; color:#0b3d2e;">ROI > Target</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fail-back callout -->
+    <div class="callout callout-red" style="margin-top:20px;">
+      <strong>未达标 →</strong> 不加预算、不拓渠道。回退至当前阶段执行优化：排查搜索词质量 → 调整出价策略 → 测试新 Feed/LP 变体 → 达标后重新申请进入下一阶段。
+    </div>
+  </div>
+
+  <!-- KPI by Product -->
+  <div class="card">
+    <h3>各产品 ROI 门槛速查</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Ramp ROI</th>
+            <th>Target ROI</th>
+            <th>Scale ROI</th>
+            <th>Logic</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="font-weight:700;">X7</td>
+            <td>$2,399</td>
+            <td><span class="badge badge-gold">2.0x</span></td>
+            <td><span class="badge badge-green">3.5x</span></td>
+            <td><span class="badge badge-green">4.0x+</span></td>
+            <td style="font-size:0.78rem; color:#6b7c72;">高客单 + 旗舰款，ROI 空间大，旺季加码优先</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;">S4</td>
+            <td>$1,599</td>
+            <td><span class="badge badge-gold">2.0x</span></td>
+            <td><span class="badge badge-green">3.5x</span></td>
+            <td><span class="badge badge-green">4.0x+</span></td>
+            <td style="font-size:0.78rem; color:#6b7c72;">中高客单，智能卖点强，转化率有潜力</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;">X3 Plus</td>
+            <td>$1,299</td>
+            <td><span class="badge badge-gold">1.5x</span></td>
+            <td><span class="badge badge-green">3.0x</span></td>
+            <td><span class="badge badge-green">3.5x+</span></td>
+            <td style="font-size:0.78rem; color:#6b7c72;">May 底去留决策——不达标则砍</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;">V3</td>
+            <td>$799</td>
+            <td><span class="badge badge-gold">1.5x</span></td>
+            <td><span class="badge badge-green">3.0x</span></td>
+            <td><span class="badge badge-green">3.5x+</span></td>
+            <td style="font-size:0.78rem; color:#6b7c72;">低客单入门款，走量型，CPA 控制优先</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top:12px; font-size:0.78rem; color:#6b7c72; line-height:1.6;">
+      <strong>Ramp</strong> = 新账户起量期可接受的最低 ROI（允许亏损换数据）· <strong>Target</strong> = 稳定盈利目标 · <strong>Scale</strong> = 可放量的安全线<br>
+      实际门槛根据账户运行数据动态调整——计划是起点，不是枷锁。
+    </div>
+  </div>
+
+  <!-- Decision Flow: Scale vs Optimize -->
+  <div class="card">
+    <h3>投放决策逻辑</h3>
+    <div style="display:flex; gap:16px; align-items:stretch;">
+      <!-- Left: Hit target -->
+      <div style="flex:1; background:#e6f5ec; border-radius:12px; padding:20px; border:2px solid #1a7a52;">
+        <div style="text-align:center; margin-bottom:12px;">
+          <div style="display:inline-block; background:#1a7a52; color:#fff; border-radius:8px; padding:6px 16px; font-size:0.82rem; font-weight:700;">ROI ≥ Target</div>
+        </div>
+        <div style="font-size:0.82rem; color:#0b4d2e; line-height:1.7;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="color:#1a7a52; font-size:1rem;">→</span>
+            <span>提升日预算 15-20%</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="color:#1a7a52; font-size:1rem;">→</span>
+            <span>启动新 Demand Gen / Search 品类词</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="color:#1a7a52; font-size:1rem;">→</span>
+            <span>测试新 LP 变体 / Feed 变体</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="color:#1a7a52; font-size:1rem;">→</span>
+            <span>拓新 Audience Signal</span>
+          </div>
+        </div>
+      </div>
+      <!-- Right: Miss target -->
+      <div style="flex:1; background:#fef2f2; border-radius:12px; padding:20px; border:2px solid #ef4444;">
+        <div style="text-align:center; margin-bottom:12px;">
+          <div style="display:inline-block; background:#ef4444; color:#fff; border-radius:8px; padding:6px 16px; font-size:0.82rem; font-weight:700;">ROI < Target</div>
+        </div>
+        <div style="font-size:0.82rem; color:#7f1d1d; line-height:1.7;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="color:#ef4444; font-size:1rem;">→</span>
+            <span>冻结预算，不加量</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="color:#ef4444; font-size:1rem;">→</span>
+            <span>排查搜索词浪费 & 否词</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="color:#ef4444; font-size:1rem;">→</span>
+            <span>检查 LP 转化率 & Feed 质量</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="color:#ef4444; font-size:1rem;">→</span>
+            <span>达标后再申请放量</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== CHAPTER 10: TIMELINE & MILESTONES ==================== -->
+<div class="chapter" id="ch10">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 10</div>
     <h2>Timeline & Milestones</h2>
     <p class="chapter-desc">对齐美国割草季节的全年执行节奏，从搭建到冲量到复盘，每个阶段有清晰的里程碑和交付物。</p>
   </div>
