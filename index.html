@@ -1,0 +1,2909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunseeker — 2026 Google Ads Media Plan</title>
+<style>
+/* ========== RESET & BASE ========== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+body {
+  font-family: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a2e;
+  background: #f5f7f6;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========== COVER PAGE ========== */
+.cover {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b3d2e 0%, #145a3e 40%, #1a7a52 70%, #22956a 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 40px;
+  position: relative;
+  overflow: hidden;
+}
+.cover::before {
+  content: "";
+  position: absolute;
+  top: -200px; right: -200px;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.cover::after {
+  content: "";
+  position: absolute;
+  bottom: -150px; left: -150px;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(240,180,41,0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.cover-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 100px;
+  padding: 8px 24px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 40px;
+  backdrop-filter: blur(10px);
+}
+.cover-brand {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #f0b429;
+  margin-bottom: 20px;
+}
+.cover h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  max-width: 700px;
+}
+.cover-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255,255,255,0.75);
+  font-weight: 400;
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+.cover-meta {
+  display: flex;
+  gap: 40px;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.85rem;
+}
+.cover-meta span { display: flex; align-items: center; gap: 6px; }
+.cover-kpi-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cover-kpi {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 20px 28px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  min-width: 150px;
+}
+.cover-kpi .value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+}
+.cover-kpi .label {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.55);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+/* ========== LAYOUT ========== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ========== TABLE OF CONTENTS ========== */
+.toc-section {
+  padding: 80px 0 60px;
+}
+.toc-section h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #0b3d2e;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.toc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.toc-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e8ede9;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+.toc-item:hover {
+  border-color: #1a7a52;
+  box-shadow: 0 4px 12px rgba(26,122,82,0.1);
+  transform: translateY(-1px);
+}
+.toc-num {
+  width: 36px; height: 36px;
+  background: linear-gradient(135deg, #145a3e, #1a7a52);
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+.toc-label {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+.toc-label small {
+  display: block;
+  font-weight: 400;
+  color: #6b7c72;
+  font-size: 0.78rem;
+  margin-top: 2px;
+}
+
+/* ========== CHAPTER ========== */
+.chapter {
+  padding: 70px 0 50px;
+  border-top: 1px solid #dce3de;
+}
+.chapter-header {
+  margin-bottom: 40px;
+}
+.chapter-num {
+  display: inline-block;
+  background: linear-gradient(135deg, #145a3e, #1a7a52);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 14px;
+}
+.chapter h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0b3d2e;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+.chapter-desc {
+  font-size: 1rem;
+  color: #5a6b60;
+  max-width: 680px;
+}
+
+/* ========== CARDS ========== */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e4eae6;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0b3d2e;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a5632;
+  margin: 20px 0 10px;
+}
+.card p, .card li {
+  font-size: 0.92rem;
+  color: #3a4a40;
+  line-height: 1.7;
+}
+.card ul, .card ol {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+.card li { margin-bottom: 6px; }
+
+/* ========== METRIC CARDS ========== */
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.metric-card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e4eae6;
+  padding: 22px;
+  text-align: center;
+}
+.metric-card .icon {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+.metric-card .value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0b3d2e;
+}
+.metric-card .label {
+  font-size: 0.78rem;
+  color: #6b7c72;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+.metric-card.accent {
+  background: linear-gradient(135deg, #0b3d2e, #1a7a52);
+  border: none;
+}
+.metric-card.accent .value { color: #fff; }
+.metric-card.accent .label { color: rgba(255,255,255,0.65); }
+.metric-card.accent .icon { filter: brightness(10); }
+
+/* ========== TABLES ========== */
+.table-wrap {
+  overflow-x: auto;
+  margin: 16px 0;
+  border-radius: 12px;
+  border: 1px solid #e4eae6;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+thead th {
+  background: #f0f5f2;
+  color: #0b3d2e;
+  font-weight: 700;
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 2px solid #d4ddd7;
+  white-space: nowrap;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+tbody td {
+  padding: 11px 16px;
+  border-bottom: 1px solid #eef2ef;
+  color: #3a4a40;
+  vertical-align: top;
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: #f8faf9; }
+tbody tr.total-row {
+  background: #f0f5f2;
+  font-weight: 700;
+}
+tbody tr.total-row td { color: #0b3d2e; border-top: 2px solid #d4ddd7; }
+
+/* ========== BADGES & TAGS ========== */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.badge-green { background: #e6f5ec; color: #0b6b3a; }
+.badge-gold { background: #fef6e0; color: #92600a; }
+.badge-blue { background: #e8f0fe; color: #1a56db; }
+.badge-red { background: #fee2e2; color: #b91c1c; }
+.badge-gray { background: #f0f2f1; color: #5a6b60; }
+.badge-purple { background: #f0e8fe; color: #6b21a8; }
+
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: #f0f5f2;
+  color: #1a5632;
+  margin: 2px 4px 2px 0;
+}
+
+/* ========== PRODUCT CARDS ========== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+.product-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e4eae6;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.product-card.must-run { border-left: 4px solid #1a7a52; }
+.product-card.secondary { border-left: 4px solid #f0b429; }
+.product-card.optional { border-left: 4px solid #9ca3af; }
+.product-card h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0b3d2e;
+  margin-bottom: 4px;
+}
+.product-card .price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #1a7a52;
+  margin-bottom: 12px;
+}
+.product-card .specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.product-card .desc {
+  font-size: 0.85rem;
+  color: #5a6b60;
+  line-height: 1.6;
+}
+
+/* ========== ASSET GROUP ========== */
+.ag-card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e4eae6;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.ag-card h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #145a3e;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef2ef;
+}
+.ag-section {
+  margin-bottom: 14px;
+}
+.ag-section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b7c72;
+  margin-bottom: 6px;
+}
+.ag-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.ag-lp {
+  font-size: 0.85rem;
+  color: #3a4a40;
+  padding: 4px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.ag-lp::before {
+  content: "→";
+  color: #1a7a52;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ========== CALLOUT BOX ========== */
+.callout {
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+.callout-green {
+  background: #e6f5ec;
+  border-left: 4px solid #1a7a52;
+  color: #0b4d2e;
+}
+.callout-gold {
+  background: #fef9ee;
+  border-left: 4px solid #f0b429;
+  color: #6b4a0a;
+}
+.callout-blue {
+  background: #eef4fe;
+  border-left: 4px solid #3b82f6;
+  color: #1e3a5f;
+}
+.callout-red {
+  background: #fef2f2;
+  border-left: 4px solid #ef4444;
+  color: #7f1d1d;
+}
+.callout strong { font-weight: 700; }
+
+/* ========== TWO COLUMNS ========== */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 16px 0;
+}
+
+/* ========== TIMELINE ========== */
+.timeline {
+  position: relative;
+  padding-left: 32px;
+  margin: 20px 0;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #1a7a52, #e4eae6);
+}
+.timeline-item {
+  position: relative;
+  padding: 16px 0 24px;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #1a7a52;
+  border: 3px solid #e6f5ec;
+}
+.timeline-item h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0b3d2e;
+  margin-bottom: 6px;
+}
+.timeline-item p {
+  font-size: 0.88rem;
+  color: #5a6b60;
+}
+
+/* ========== PERSONA CARDS ========== */
+.persona-card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e4eae6;
+  padding: 20px;
+}
+.persona-card .persona-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+.persona-card h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0b3d2e;
+  margin-bottom: 4px;
+}
+.persona-card .persona-desc {
+  font-size: 0.82rem;
+  color: #6b7c72;
+  margin-bottom: 10px;
+}
+.persona-card .persona-skus {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+/* ========== FUNNEL ========== */
+.funnel {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  align-items: stretch;
+}
+.funnel-stage {
+  flex: 1;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+.funnel-stage h4 {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.funnel-stage p {
+  color: rgba(255,255,255,0.95) !important;
+  font-weight: 500;
+}
+.funnel-stage .channel {
+  font-size: 0.8rem;
+  background: rgba(255,255,255,0.25);
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 4px 0;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+}
+.funnel-1 { background: linear-gradient(135deg, #1e3a5f, #2563eb); }
+.funnel-2 { background: linear-gradient(135deg, #4c1d95, #7c3aed); }
+.funnel-3 { background: linear-gradient(135deg, #0b3d2e, #1a7a52); }
+.funnel-4 { background: linear-gradient(135deg, #92400e, #f59e0b); }
+
+/* ========== RISK TABLE ========== */
+.risk-item {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eef2ef;
+}
+.risk-item:last-child { border-bottom: none; }
+.risk-level {
+  width: 80px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  text-align: center;
+  padding: 40px;
+  color: #6b7c72;
+  font-size: 0.8rem;
+  border-top: 1px solid #dce3de;
+}
+
+/* ========== PRINT ========== */
+@media print {
+  * { -webkit-print-color-adjust: exact !important; color-adjust: exact !important; print-color-adjust: exact !important; }
+  @page { margin: 12mm 10mm; size: A4; }
+  body { background: #fff; font-size: 11px; line-height: 1.55; }
+  .cover { min-height: auto; padding: 50px 40px; page-break-after: always; }
+  .cover::before, .cover::after { display: none; }
+  .toc-section { page-break-after: always; }
+  .chapter { border-top: none; padding-top: 30px; }
+  .chapter-header { break-after: avoid; }
+  .card, .product-card, .ag-card, .persona-card { break-inside: avoid; box-shadow: none; margin-bottom: 14px; }
+  .metric-card { break-inside: avoid; box-shadow: none; }
+  .metrics-row { break-inside: avoid; }
+  .table-wrap { break-inside: avoid; }
+  .callout { break-inside: avoid; }
+  .two-col { break-inside: avoid; }
+  .toc-item:hover { transform: none; box-shadow: none; }
+  .funnel { break-inside: avoid; }
+  .footer { page-break-before: avoid; margin-top: 20px; }
+  h3, h4 { page-break-after: avoid; }
+}
+@media (max-width: 768px) {
+  .cover h1 { font-size: 2rem; }
+  .metrics-row { grid-template-columns: repeat(2, 1fr); }
+  .product-grid { grid-template-columns: 1fr; }
+  .toc-grid { grid-template-columns: 1fr; }
+  .two-col { grid-template-columns: 1fr; }
+  .funnel { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<!-- ==================== COVER ==================== -->
+<div class="cover">
+  <div class="cover-badge">Confidential — Prepared for Sunseeker Robotics</div>
+  <div class="cover-brand">Sunseeker</div>
+  <h1>2026 Google Ads<br>Media Plan</h1>
+  <div class="cover-subtitle">Data-driven advertising strategy for X7 · S4 · X3 Plus · V3 across the U.S. market</div>
+  <div class="cover-kpi-row">
+    <div class="cover-kpi">
+      <div class="value">$315,811</div>
+      <div class="label">Annual Spend</div>
+    </div>
+    <div class="cover-kpi">
+      <div class="value">$1.09M</div>
+      <div class="label">Projected Revenue</div>
+    </div>
+    <div class="cover-kpi">
+      <div class="value">3.46x</div>
+      <div class="label">Target ROI</div>
+    </div>
+    <div class="cover-kpi">
+      <div class="value">4 SKUs</div>
+      <div class="label">Product Lines</div>
+    </div>
+  </div>
+  <div class="cover-meta" style="margin-top:40px;">
+    <span>Prepared by Satori</span>
+    <span>February 2026</span>
+    <span>v2.0</span>
+  </div>
+</div>
+
+<!-- ==================== TABLE OF CONTENTS ==================== -->
+<div class="container">
+  <div class="toc-section">
+    <h2>Table of Contents</h2>
+    <div class="toc-grid">
+      <a class="toc-item" href="#ch1">
+        <div class="toc-num">01</div>
+        <div class="toc-label">Executive Summary<small>Goals, budget, key strategies at a glance</small></div>
+      </a>
+      <a class="toc-item" href="#ch2">
+        <div class="toc-num">02</div>
+        <div class="toc-label">Brand & Market Context<small>U.S. market landscape, product lineup & positioning</small></div>
+      </a>
+      <a class="toc-item" href="#ch3">
+        <div class="toc-num">03</div>
+        <div class="toc-label">Consumer Insights (VOC)<small>Pain points, satisfaction drivers, unmet needs</small></div>
+      </a>
+      <a class="toc-item" href="#ch4">
+        <div class="toc-num">04</div>
+        <div class="toc-label">Yard-Fit Decision Framework<small>4 indicators, model selection matrix, upgrade paths</small></div>
+      </a>
+      <a class="toc-item" href="#ch5">
+        <div class="toc-num">05</div>
+        <div class="toc-label">Audience Strategy<small>7 Personas × SKU fit matrix</small></div>
+      </a>
+      <a class="toc-item" href="#ch6">
+        <div class="toc-num">06</div>
+        <div class="toc-label">Strategic Framework<small>Full-funnel channel roles & budget logic</small></div>
+      </a>
+      <a class="toc-item" href="#ch7">
+        <div class="toc-num">07</div>
+        <div class="toc-label">Account Architecture<small>Campaign structure, naming, hierarchy</small></div>
+      </a>
+      <a class="toc-item" href="#ch8">
+        <div class="toc-num">08</div>
+        <div class="toc-label">Campaign Plan<small>PMax · Search · Shopping/PLA · Demand Gen with examples</small></div>
+      </a>
+      <a class="toc-item" href="#ch9">
+        <div class="toc-num">09</div>
+        <div class="toc-label">Timeline & Milestones<small>5-phase roadmap aligned to mowing season</small></div>
+      </a>
+    </div>
+  </div>
+
+<!-- ==================== CHAPTER 1: EXECUTIVE SUMMARY ==================== -->
+<div class="chapter" id="ch1">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 01</div>
+    <h2>Executive Summary</h2>
+    <p class="chapter-desc">2026 年度 Google Ads 投放计划的核心目标、策略框架与预期产出一览。</p>
+  </div>
+
+  <!-- Core Objective -->
+  <div class="callout callout-green" style="margin-bottom:28px;">
+    <strong>Core Objective：</strong>在一个干净的新账户中，围绕 X7 / S4 / X3 Plus / V3 四款核心型号，用 PMax + PLA（自定义 Feed）建立 <strong>"Audience + 院子适配型转化模型"</strong>，在旺季放量的同时，把全年平均 ROI 推到 <strong>3.46x</strong>。
+  </div>
+
+  <!-- KPI Cards -->
+  <div class="metrics-row">
+    <div class="metric-card accent">
+      <div class="value">$315,811</div>
+      <div class="label">Annual Ad Spend</div>
+    </div>
+    <div class="metric-card">
+      <div class="value">$1,094,213</div>
+      <div class="label">Projected Revenue</div>
+    </div>
+    <div class="metric-card">
+      <div class="value">3.46x</div>
+      <div class="label">Full-Year ROI</div>
+    </div>
+    <div class="metric-card">
+      <div class="value">4 SKUs</div>
+      <div class="label">Active Products</div>
+    </div>
+  </div>
+
+  <!-- Strategic Pillars -->
+  <div class="card">
+    <h3>Strategic Pillars — 四大策略支柱</h3>
+    <div style="display:grid; grid-template-columns: repeat(2,1fr); gap:16px;">
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px;">
+        <div style="font-size:1.4rem; margin-bottom:6px;">🏠</div>
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Yard-Fit First</div>
+        <div style="font-size:0.85rem; color:#5a6b60;">以"院子适配"为核心决策框架，用 4 个硬指标（面积/坡度/通道/分区）在购前拦截退货风险，提升转化质量。</div>
+      </div>
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px;">
+        <div style="font-size:1.4rem; margin-bottom:6px;">📊</div>
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Evidence Over Claims</div>
+        <div style="font-size:0.85rem; color:#5a6b60;">基于美国 VOC 洞察（YouTube/Reddit/Facebook），用"证据型内容"替代参数堆砌。少救援次数、真实院子实测、透明边界 > 空泛口号。</div>
+      </div>
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px;">
+        <div style="font-size:1.4rem; margin-bottom:6px;">🎯</div>
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Product-Led Structure</div>
+        <div style="font-size:0.85rem; color:#5a6b60;">按产品线拆 PMax Campaign（X7/S4/X3 Plus/V3），每个 Campaign 内按"院子适配场景 × 产品功能卖点 × VOC 痛点机会点"三维度拆 Asset Group，Feed 与 Landing Page 严格匹配。</div>
+      </div>
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px;">
+        <div style="font-size:1.4rem; margin-bottom:6px;">📈</div>
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Seasonal Scaling</div>
+        <div style="font-size:0.85rem; color:#5a6b60;">预算严格跟随割草季节性曲线：Jan–Feb 学习蓄水（$1,200/月），Mar 起量（$29.6K），Apr–Jul 旺季冲刺（$50K–$67K/月），Aug–Sep 逐步收尾（$25K→$11K），Oct–Dec 最小维护（$2,418/月）。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Priority -->
+  <div class="card">
+    <h3>Product Priority — 投放产品优先级</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Priority</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Coverage</th>
+            <th>Navigation</th>
+            <th>Budget Share</th>
+            <th>Target ROI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-green">MUST RUN</span></td>
+            <td><strong>X7</strong></td>
+            <td>$2,399</td>
+            <td>0.75 Acre</td>
+            <td>RTK + Vision AI (AONavi)</td>
+            <td>40%</td>
+            <td>4.0x</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-green">MUST RUN</span></td>
+            <td><strong>S4</strong></td>
+            <td>$1,599</td>
+            <td>0.25 Acre</td>
+            <td>360° LiDAR + AI Vision</td>
+            <td>30%</td>
+            <td>3.1x</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-gold">SECONDARY</span></td>
+            <td><strong>V3</strong></td>
+            <td>$799</td>
+            <td>0.15 Acre</td>
+            <td>RTK + VSLAM + Vision AI</td>
+            <td>25%</td>
+            <td>3.5x</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-gray">FLEXIBLE</span></td>
+            <td><strong>X3 Plus</strong></td>
+            <td>$1,299</td>
+            <td>0.30 Acre</td>
+            <td>Vision 3D + AI Learning</td>
+            <td>5%</td>
+            <td>1.5x</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout callout-gold" style="margin-top:12px;">
+      <strong>Note：</strong>预算分配比例与 Target ROI 将根据各产品实际转化表现实时调整。X3 Plus 初期以小预算测试，效果好则逐步提升。
+    </div>
+  </div>
+
+  <!-- Channel Mix -->
+  <div class="card">
+    <h3>Channel Mix — 渠道组合</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Channel</th>
+            <th>Role</th>
+            <th>Budget Share</th>
+            <th>Key Focus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>PMax</strong></td>
+            <td>主力转化引擎</td>
+            <td rowspan="2" style="vertical-align:middle; text-align:center; font-weight:700;">90%<br><span style="font-weight:400; font-size:0.8rem; color:#6b7c72;">共享，按实际效果分配</span></td>
+            <td>按产品拆 Campaign × 按院子适配场景、产品功能卖点、VOC 痛点机会点拆 Asset Group，配套自定义 Feed</td>
+          </tr>
+          <tr>
+            <td><strong>PLA / Shopping</strong></td>
+            <td>Feed 驱动的高意图转化</td>
+            <td>面积/地形/卖点/用户痛点多维度 Feed 优化，每套 Feed 配 3 套 Landing Page 变体</td>
+          </tr>
+          <tr>
+            <td><strong>Search — Brand</strong></td>
+            <td>品牌词全覆盖</td>
+            <td style="text-align:center;">无上限</td>
+            <td>所有品牌拼写变体 + 型号词，落地页智能匹配</td>
+          </tr>
+          <tr>
+            <td><strong>Search — Product</strong></td>
+            <td>品类词放量试错</td>
+            <td style="text-align:center;">初期 10%</td>
+            <td>高意图长尾词（场景×需求×型号），按意图分组投放</td>
+          </tr>
+          <tr>
+            <td><strong>Demand Gen</strong></td>
+            <td>流量 + 再营销信号</td>
+            <td style="text-align:center;">包含在 PMax 内</td>
+            <td>仅做 Traffic + Remarketing 信号输入，不独立追求转化</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Revenue Trajectory -->
+  <div class="card">
+    <h3>Revenue Trajectory — 全年收入曲线</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">预算跟随美国割草季需求曲线分配：Jan–Feb 学习蓄水 → Mar 起量 → Apr–Jul 旺季冲刺 → Aug–Sep 收尾 → Oct–Dec 最小维护。</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th style="text-align:right;">Google Spend</th>
+            <th style="text-align:right;">Projected Revenue</th>
+            <th style="text-align:center;">Target ROI</th>
+            <th>Phase</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jan</td>
+            <td style="text-align:right;">$1,200</td>
+            <td style="text-align:right;">$0</td>
+            <td style="text-align:center;">—</td>
+            <td><span class="badge badge-blue">Learning</span></td>
+          </tr>
+          <tr>
+            <td>Feb</td>
+            <td style="text-align:right;">$1,200</td>
+            <td style="text-align:right;">$0</td>
+            <td style="text-align:center;">—</td>
+            <td><span class="badge badge-blue">Learning</span></td>
+          </tr>
+          <tr>
+            <td>Mar</td>
+            <td style="text-align:right;">$29,609</td>
+            <td style="text-align:right;">$60,000</td>
+            <td style="text-align:center;">2.0x</td>
+            <td><span class="badge badge-gold">Ramp-Up</span></td>
+          </tr>
+          <tr>
+            <td>Apr</td>
+            <td style="text-align:right;">$50,628</td>
+            <td style="text-align:right;">$126,585</td>
+            <td style="text-align:center;">2.5x</td>
+            <td><span class="badge badge-green">Peak Season</span></td>
+          </tr>
+          <tr>
+            <td>May</td>
+            <td style="text-align:right;">$58,395</td>
+            <td style="text-align:right;">$204,407</td>
+            <td style="text-align:center;">3.5x</td>
+            <td><span class="badge badge-green">Peak Season</span></td>
+          </tr>
+          <tr>
+            <td>Jun</td>
+            <td style="text-align:right;">$66,845</td>
+            <td style="text-align:right;">$267,400</td>
+            <td style="text-align:center;">4.0x</td>
+            <td><span class="badge badge-green">Peak Season</span></td>
+          </tr>
+          <tr>
+            <td>Jul</td>
+            <td style="text-align:right;">$63,916</td>
+            <td style="text-align:right;">$276,359</td>
+            <td style="text-align:center;">4.5x</td>
+            <td><span class="badge badge-green">Peak Season</span></td>
+          </tr>
+          <tr>
+            <td>Aug</td>
+            <td style="text-align:right;">$25,330</td>
+            <td style="text-align:right;">$106,394</td>
+            <td style="text-align:center;">4.2x</td>
+            <td><span class="badge badge-gold">Wind-Down</span></td>
+          </tr>
+          <tr>
+            <td>Sep</td>
+            <td style="text-align:right;">$11,433</td>
+            <td style="text-align:right;">$43,468</td>
+            <td style="text-align:center;">3.8x</td>
+            <td><span class="badge badge-gold">Wind-Down</span></td>
+          </tr>
+          <tr>
+            <td>Oct</td>
+            <td style="text-align:right;">$2,418</td>
+            <td style="text-align:right;">$3,600</td>
+            <td style="text-align:center;">3.0x</td>
+            <td><span class="badge badge-gray">Maintenance</span></td>
+          </tr>
+          <tr>
+            <td>Nov</td>
+            <td style="text-align:right;">$2,418</td>
+            <td style="text-align:right;">$3,120</td>
+            <td style="text-align:center;">2.6x</td>
+            <td><span class="badge badge-gray">Maintenance</span></td>
+          </tr>
+          <tr>
+            <td>Dec</td>
+            <td style="text-align:right;">$2,418</td>
+            <td style="text-align:right;">$2,880</td>
+            <td style="text-align:center;">2.4x</td>
+            <td><span class="badge badge-gray">Maintenance</span></td>
+          </tr>
+          <tr class="total-row">
+            <td>TOTAL</td>
+            <td style="text-align:right;">$315,811</td>
+            <td style="text-align:right;">$1,094,213</td>
+            <td style="text-align:center;">3.46x</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Key Differentiators -->
+  <div class="card">
+    <h3>What Makes This Plan Different — 本方案的差异化</h3>
+    <div class="two-col">
+      <div>
+        <h4 style="color:#b91c1c;">❌ 传统做法</h4>
+        <ul>
+          <li>按参数堆砌卖点，"厘米级精度""AI 智能"</li>
+          <li>一套 Feed 打所有人群</li>
+          <li>旺季淡季一样的预算</li>
+          <li>退货后才发现用户买错了型号</li>
+          <li>在旧账户上继续烧钱</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:#0b6b3a;">✅ 本方案</h4>
+        <ul>
+          <li>基于 VOC 痛点讲"结果"：少救援、少盲区、更稳定覆盖</li>
+          <li>按院子场景 × 产品卖点 × VOC 痛点拆 Feed + Asset Group + Landing Page</li>
+          <li>预算严格跟随割草季节性曲线</li>
+          <li>Yard-Fit 决策框架在购前拦截退货风险</li>
+          <li>全新干净账户，重建 Google 学习模型</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== CHAPTER 2: BRAND & MARKET CONTEXT ==================== -->
+<div class="chapter" id="ch2">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 02</div>
+    <h2>Brand & Market Context</h2>
+    <p class="chapter-desc">美国市场环境与 Sunseeker 投放产品矩阵。</p>
+  </div>
+
+  <!-- Market Context -->
+  <div class="card">
+    <h3>Market Context — 美国市场背景</h3>
+    <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:16px; margin-bottom:20px;">
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px; text-align:center;">
+        <div style="font-size:1.8rem; font-weight:800; color:#0b3d2e;">65.3%</div>
+        <div style="font-size:0.82rem; color:#6b7c72; margin-top:4px;">美国房屋自有率（Q3 2025）</div>
+      </div>
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px; text-align:center;">
+        <div style="font-size:1.8rem; font-weight:800; color:#0b3d2e;">9,400万</div>
+        <div style="font-size:0.82rem; color:#6b7c72; margin-top:4px;">美国宠物家庭（安全需求高）</div>
+      </div>
+      <div style="padding:18px; background:#f0f5f2; border-radius:12px; text-align:center;">
+        <div style="font-size:1.8rem; font-weight:800; color:#0b3d2e;">Mar–Sep</div>
+        <div style="font-size:0.82rem; color:#6b7c72; margin-top:4px;">核心割草季（预算集中期）</div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <h4>需求端特征</h4>
+        <ul>
+          <li>大多数美国家庭与草坪维护相关，DIY 与外包混合是常态</li>
+          <li>树荫遮挡、边界落差、窄通道非常普遍——这正是 robot mower 体验分化的根源</li>
+          <li>高收入家庭的智能设备渗透率更高，高端 robot mower 更容易在中高收入房主群体中扩散</li>
+          <li>宠物家庭规模庞大（约 9,400 万户），安全与障碍物识别是重要决策变量</li>
+        </ul>
+      </div>
+      <div>
+        <h4>季节性规律</h4>
+        <ul>
+          <li><strong>Jan–Feb：</strong>淡季，消费者开始研究/比较，搜索量低</li>
+          <li><strong>Mar–Apr：</strong>春季起量，"开割季"需求启动</li>
+          <li><strong>May–Jul：</strong>旺季峰值，搜索量与购买意图最高</li>
+          <li><strong>Aug–Sep：</strong>逐步收尾，夏末补割需求</li>
+          <li><strong>Oct–Dec：</strong>淡季，越冬存放/维护内容为主</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout callout-green" style="margin-top:16px;">
+      <strong>对投放的意义：</strong>预算分配严格跟随季节性曲线。Jan–Feb 仅投品牌词维持存在感（$1,200/月），Mar 开始起量，Apr–Jul 集中 80%+ 年预算冲刺旺季，Oct–Dec 回到最低维护。
+    </div>
+  </div>
+
+  <!-- Product Lineup -->
+  <div class="card">
+    <h3>Product Lineup — 2026 投放产品矩阵</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:20px;">四款产品覆盖从 0.15 到 0.75 Acre、从入门到旗舰的完整价格带，针对不同院子类型和用户需求精准匹配。</p>
+
+    <div class="product-grid">
+      <!-- X7 -->
+      <div class="product-card must-run">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span class="badge badge-green">MUST RUN</span>
+          <span style="font-size:0.78rem; color:#6b7c72;">Budget Share: 40%</span>
+        </div>
+        <h4>X7 — 旗舰全能款</h4>
+        <div class="price">$2,399</div>
+        <div class="specs">
+          <span class="tag">0.75 Acre</span>
+          <span class="tag">70% Slope (35°)</span>
+          <span class="tag">AWD</span>
+          <span class="tag">14" Dual Blade</span>
+        </div>
+        <div class="desc">
+          <strong>Navigation：</strong>RTK + Vision AI (AONavi)<br>
+          <strong>Positioning：</strong>Best for large, open lawns & self-driving-level mowing<br>
+          <strong>Core Audience：</strong>大院子房主、从骑乘式割草机升级的用户、草坪审美追求者
+        </div>
+      </div>
+
+      <!-- S4 -->
+      <div class="product-card must-run">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span class="badge badge-green">MUST RUN</span>
+          <span style="font-size:0.78rem; color:#6b7c72;">Budget Share: 30%</span>
+        </div>
+        <h4>S4 — 复杂小院专家</h4>
+        <div class="price">$1,599</div>
+        <div class="specs">
+          <span class="tag">0.25 Acre</span>
+          <span class="tag">42% Slope (22°)</span>
+          <span class="tag">LiDAR 360°</span>
+          <span class="tag">100 Zones / 5 Maps</span>
+        </div>
+        <div class="desc">
+          <strong>Navigation：</strong>360° 3D LiDAR + AI Vision (AllSense)<br>
+          <strong>Positioning：</strong>Self-driving-level mowing for real, complex yards<br>
+          <strong>Core Audience：</strong>复杂地形小院用户、科技家居爱好者、不想装 RTK 天线的买家
+        </div>
+        <div class="callout callout-gold" style="margin-top:12px; padding:10px 14px; font-size:0.82rem;">
+          CES Innovation Awards® 2026 Honoree — 首款 LiDAR 导航割草机器人，免外置天线/免边界线
+        </div>
+      </div>
+
+      <!-- V3 -->
+      <div class="product-card secondary">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span class="badge badge-gold">SECONDARY</span>
+          <span style="font-size:0.78rem; color:#6b7c72;">Budget Share: 25%</span>
+        </div>
+        <h4>V3 — 性价比入门款</h4>
+        <div class="price">$799</div>
+        <div class="specs">
+          <span class="tag">0.15 Acre</span>
+          <span class="tag">42% Slope (22°)</span>
+          <span class="tag">55 dB Ultra-Quiet</span>
+          <span class="tag">ReadyGo™</span>
+        </div>
+        <div class="desc">
+          <strong>Navigation：</strong>RTK + VSLAM + Vision AI<br>
+          <strong>Positioning：</strong>小院最省心部署，务实自动化的入门之选<br>
+          <strong>Core Audience：</strong>预算敏感型买家、小院房主、首次尝试 robot mower 的用户
+        </div>
+      </div>
+
+      <!-- X3 Plus -->
+      <div class="product-card optional">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span class="badge badge-gray">FLEXIBLE</span>
+          <span style="font-size:0.78rem; color:#6b7c72;">Budget Share: 5%</span>
+        </div>
+        <h4>X3 Plus — 郊区均衡款</h4>
+        <div class="price">$1,299</div>
+        <div class="specs">
+          <span class="tag">0.30 Acre</span>
+          <span class="tag">30% Slope (17°)</span>
+          <span class="tag">6 Zones</span>
+          <span class="tag">App + Alexa</span>
+        </div>
+        <div class="desc">
+          <strong>Navigation：</strong>Vision 3D + AI Learning<br>
+          <strong>Positioning：</strong>标准郊区小中院的均衡选择，可预期省心<br>
+          <strong>Core Audience：</strong>标准郊区家庭、首次购买者、对价格和功能都有要求的用户
+        </div>
+      </div>
+    </div>
+
+    <!-- Price Ladder -->
+    <div style="margin-top:24px; padding:20px; background:#f8faf9; border-radius:12px; break-inside:avoid;">
+      <h4 style="margin-top:0; margin-bottom:12px; color:#0b3d2e;">Price Ladder & Coverage Map</h4>
+      <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+        <div style="flex:1; min-width:120px; text-align:center; padding:14px; background:#fff; border-radius:10px; border:1px solid #e4eae6;">
+          <div style="font-weight:800; color:#0b3d2e;">V3</div>
+          <div style="font-size:1.1rem; font-weight:700; color:#1a7a52;">$799</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">0.15 Acre</div>
+        </div>
+        <div style="color:#d4ddd7; font-size:1.2rem;">→</div>
+        <div style="flex:1; min-width:120px; text-align:center; padding:14px; background:#fff; border-radius:10px; border:1px solid #e4eae6;">
+          <div style="font-weight:800; color:#0b3d2e;">X3 Plus</div>
+          <div style="font-size:1.1rem; font-weight:700; color:#1a7a52;">$1,299</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">0.30 Acre</div>
+        </div>
+        <div style="color:#d4ddd7; font-size:1.2rem;">→</div>
+        <div style="flex:1; min-width:120px; text-align:center; padding:14px; background:#fff; border-radius:10px; border:1px solid #e4eae6;">
+          <div style="font-weight:800; color:#0b3d2e;">S4</div>
+          <div style="font-size:1.1rem; font-weight:700; color:#1a7a52;">$1,599</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">0.25 Acre</div>
+        </div>
+        <div style="color:#d4ddd7; font-size:1.2rem;">→</div>
+        <div style="flex:1; min-width:120px; text-align:center; padding:14px; background:linear-gradient(135deg,#0b3d2e,#1a7a52); border-radius:10px;">
+          <div style="font-weight:800; color:#fff;">X7</div>
+          <div style="font-size:1.1rem; font-weight:700; color:#f0b429;">$2,399</div>
+          <div style="font-size:0.75rem; color:rgba(255,255,255,0.7);">0.75 Acre</div>
+        </div>
+      </div>
+      <p style="font-size:0.8rem; color:#6b7c72; margin-top:10px; text-align:center;">注：S4 面积小于 X3 Plus，但价格更高——因为 S4 定位"复杂院子专家"（LiDAR + 100 Zones），价值在精度与可靠性而非面积。</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== CHAPTER 3: CONSUMER INSIGHTS (VOC) ==================== -->
+<div class="chapter" id="ch3">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 03</div>
+    <h2>Consumer Insights (VOC)</h2>
+    <p class="chapter-desc">基于 YouTube 评测、Reddit/论坛、Facebook 机主群等美国市场公开讨论的"消费者声音整合"，按真实购买—使用—维护全旅程归纳。</p>
+  </div>
+
+  <!-- One-liner -->
+  <div class="callout callout-blue" style="margin-bottom:28px;">
+    <strong>一句话总结：</strong>消费者追求"省心"，但真实体验往往变成"你在给它当场务"。在树荫/复杂地形/窄通道/杂物多的院子里，很多机型仍会频繁需要人工救援、调参和重映射。
+  </div>
+
+  <!-- Pain Points -->
+  <div class="card">
+    <h3>Core Pain Points — 六大核心痛点（按决策权重排序）</h3>
+
+    <div style="display:grid; grid-template-columns: repeat(2,1fr); gap:14px;">
+      <!-- Pain 1 -->
+      <div style="padding:18px; background:#fef2f2; border-radius:12px; border-left:4px solid #ef4444;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="color:#7f1d1d;">1. 导航与定位可靠性</strong>
+          <span class="badge badge-red">决策门槛 #1</span>
+        </div>
+        <ul style="font-size:0.85rem; color:#5a4a4a; margin:0; padding-left:18px;">
+          <li>树荫/房屋遮挡导致 RTK/GPS 不稳：暂停、回桩失败、需手动触发</li>
+          <li>"厘米级精度"与实际割草路径不一致，映射纠偏导致"走位怪/漏割"</li>
+          <li>对 RTK 天线/基站摆位高度敏感，大量内容在教"怎么摆 RTK 才稳定"</li>
+        </ul>
+      </div>
+
+      <!-- Pain 2 -->
+      <div style="padding:18px; background:#fef2f2; border-radius:12px; border-left:4px solid #ef4444;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="color:#7f1d1d;">2. "需要救援"的频率</strong>
+          <span class="badge badge-red">省心指标</span>
+        </div>
+        <ul style="font-size:0.85rem; color:#5a4a4a; margin:0; padding-left:18px;">
+          <li>卡沟/卡坑/地面不平/低矮边界：院子不够"平整工程化"就频繁被困</li>
+          <li>窄通道与多分区：区域切换、回桩路线"犯迷糊"</li>
+          <li>消费者期待"像扫地机器人一样成熟"，现实落差大</li>
+        </ul>
+      </div>
+
+      <!-- Pain 3 -->
+      <div style="padding:18px; background:#fef2f2; border-radius:12px; border-left:4px solid #ef4444;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="color:#7f1d1d;">3. 边缘修剪"最后 5%"</strong>
+          <span class="badge badge-red">影响值不值</span>
+        </div>
+        <ul style="font-size:0.85rem; color:#5a4a4a; margin:0; padding-left:18px;">
+          <li>沿墙/围栏/花坛边留一条草，仍需人工修边</li>
+          <li>直接影响"看起来干不干净"，在美国消费者那里影响"值不值"判断</li>
+        </ul>
+      </div>
+
+      <!-- Pain 4 -->
+      <div style="padding:18px; background:#fef6e0; border-radius:12px; border-left:4px solid #f0b429;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="color:#6b4a0a;">4. 充电回桩 / 基座报错</strong>
+          <span class="badge badge-gold">挫败感来源</span>
+        </div>
+        <ul style="font-size:0.85rem; color:#5a4a40; margin:0; padding-left:18px;">
+          <li>反复尝试回桩、基座报错、充电接触不良</li>
+          <li>Reddit 高频排障话题</li>
+        </ul>
+      </div>
+
+      <!-- Pain 5 -->
+      <div style="padding:18px; background:#fef6e0; border-radius:12px; border-left:4px solid #f0b429;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="color:#6b4a0a;">5. App / 固件 / 连接</strong>
+          <span class="badge badge-gold">信任消耗</span>
+        </div>
+        <ul style="font-size:0.85rem; color:#5a4a40; margin:0; padding-left:18px;">
+          <li>"更新后变差/地图乱了/错误码"是机主群典型话题</li>
+          <li>用户既依赖 OTA 修复问题，又担心更新引入新 bug</li>
+        </ul>
+      </div>
+
+      <!-- Pain 6 -->
+      <div style="padding:18px; background:#fef6e0; border-radius:12px; border-left:4px solid #f0b429;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="color:#6b4a0a;">6. 安全与障碍物识别</strong>
+          <span class="badge badge-gold">劝退点</span>
+        </div>
+        <ul style="font-size:0.85rem; color:#5a4a40; margin:0; padding-left:18px;">
+          <li>仅靠碰撞传感的"低级避障"不够，轻小物体/玩具/宠物风险是劝退点</li>
+          <li>美国 9,400 万宠物家庭，安全是高权重决策变量</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Satisfaction Drivers -->
+  <div class="card">
+    <h3>Satisfaction Drivers — 四大满意驱动（口碑与复购来源）</h3>
+    <div style="display:grid; grid-template-columns: repeat(4,1fr); gap:14px;">
+      <div style="padding:16px; background:#e6f5ec; border-radius:12px; text-align:center;">
+        <div style="font-size:1.5rem; margin-bottom:6px;">⏱️</div>
+        <div style="font-weight:700; color:#0b3d2e; font-size:0.9rem;">时间节省</div>
+        <div style="font-size:0.8rem; color:#3a6b4a; margin-top:4px;">"把割草从周末劳动变成自动日常"——消费者最开心的结果</div>
+      </div>
+      <div style="padding:16px; background:#e6f5ec; border-radius:12px; text-align:center;">
+        <div style="font-size:1.5rem; margin-bottom:6px;">🔇</div>
+        <div style="font-weight:700; color:#0b3d2e; font-size:0.9rem;">低噪音 · 无油</div>
+        <div style="font-size:0.8rem; color:#3a6b4a; margin-top:4px;">"安静、不用加油、不用做发动机保养"——正向反馈集中</div>
+      </div>
+      <div style="padding:16px; background:#e6f5ec; border-radius:12px; text-align:center;">
+        <div style="font-size:1.5rem; margin-bottom:6px;">📅</div>
+        <div style="font-weight:700; color:#0b3d2e; font-size:0.9rem;">多分区 · 可控感</div>
+        <div style="font-size:0.8rem; color:#3a6b4a; margin-top:4px;">忙碌家庭、双职工、带娃家庭把它当"解放型家电"</div>
+      </div>
+      <div style="padding:16px; background:#e6f5ec; border-radius:12px; text-align:center;">
+        <div style="font-size:1.5rem; margin-bottom:6px;">✨</div>
+        <div style="font-weight:700; color:#0b3d2e; font-size:0.9rem;">条纹观感</div>
+        <div style="font-size:0.8rem; color:#3a6b4a; margin-top:4px;">系统化割草的"高尔夫草坪"效果，YouTube 上强种草力</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Unmet Needs = Opportunities -->
+  <div class="card">
+    <h3>Unmet Needs — 五大未满足需求（= Sunseeker 的机会点）</h3>
+    <div style="display:grid; grid-template-columns: 1fr; gap:12px;">
+
+      <div style="display:flex; gap:16px; padding:16px; background:#eef4fe; border-radius:12px;">
+        <div style="flex-shrink:0; width:36px; height:36px; background:#3b82f6; color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; font-weight:700;">1</div>
+        <div>
+          <strong style="color:#1e3a5f;">真正的"复杂院子可用"</strong>
+          <p style="font-size:0.85rem; color:#3a5a7a; margin:4px 0 0;">消费者的真实院子有树荫、坡度、松软地、窄通道、玩具杂物、边界高低差。现阶段很多评测结论是"院子必须很理想才省心"。<br><strong>机会点：</strong>更强的传感融合与自恢复策略——掉线不停工/卡住自救/自动重规划。</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:16px; padding:16px; background:#eef4fe; border-radius:12px;">
+        <div style="flex-shrink:0; width:36px; height:36px; background:#3b82f6; color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; font-weight:700;">2</div>
+        <div>
+          <strong style="color:#1e3a5f;">像家电一样的交付与可预期</strong>
+          <p style="font-size:0.85rem; color:#3a5a7a; margin:4px 0 0;">消费者不想研究 RTK、卫星数、基站摆位、信号死角。<br><strong>机会点：</strong>"院子适配诊断 + 一次成功部署"的产品化交付——App 内自检、可视化信号热力图、摆位引导。</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:16px; padding:16px; background:#eef4fe; border-radius:12px;">
+        <div style="flex-shrink:0; width:36px; height:36px; background:#3b82f6; color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; font-weight:700;">3</div>
+        <div>
+          <strong style="color:#1e3a5f;">边缘与角落的"最后 5%"</strong>
+          <p style="font-size:0.85rem; color:#3a5a7a; margin:4px 0 0;">边缘留草是持续痛点，直接影响"看起来干不干净"。<br><strong>机会点：</strong>更激进但安全的贴边策略、可控的"边缘模式"、角落补刀。</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:16px; padding:16px; background:#eef4fe; border-radius:12px;">
+        <div style="flex-shrink:0; width:36px; height:36px; background:#3b82f6; color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; font-weight:700;">4</div>
+        <div>
+          <strong style="color:#1e3a5f;">软件稳定性与智能家居融合</strong>
+          <p style="font-size:0.85rem; color:#3a5a7a; margin:4px 0 0;">高端用户希望"自动化、可监控、可报错自愈"，而不是"每周看一次群找补丁"。</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:16px; padding:16px; background:#eef4fe; border-radius:12px;">
+        <div style="flex-shrink:0; width:36px; height:36px; background:#3b82f6; color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; font-weight:700;">5</div>
+        <div>
+          <strong style="color:#1e3a5f;">可信的售后网络与可维护性</strong>
+          <p style="font-size:0.85rem; color:#3a5a7a; margin:4px 0 0;">高客单价产品的口碑，很多时候不是"割得多好"，而是"出问题你能不能把我当回事"。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- VOC → Ad Strategy Mapping -->
+  <div class="card">
+    <h3>VOC → Ad Strategy Mapping — 痛点/机会如何落地到投放</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">每一个 VOC 洞察都对应具体的广告策略动作，确保投放内容直击消费者真实关切。</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>VOC 洞察</th>
+            <th>对应产品</th>
+            <th>Asset Group / Feed Theme</th>
+            <th>广告文案方向</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>树荫/遮挡下导航不稳</td>
+            <td><span class="badge badge-green">S4</span></td>
+            <td>Wire-Free Intelligence / LiDAR 主导导航</td>
+            <td>"LiDAR-led navigation — stays stable where GPS struggles"</td>
+          </tr>
+          <tr>
+            <td>救援频率太高</td>
+            <td><span class="badge badge-green">S4</span> <span class="badge badge-green">X7</span></td>
+            <td>Complexity Handler / Slopes & Terrain</td>
+            <td>"Designed to need less rescuing" / 救援账本公开</td>
+          </tr>
+          <tr>
+            <td>大院子覆盖效率</td>
+            <td><span class="badge badge-green">X7</span></td>
+            <td>Large Acreage Fit / Maximum Efficiency</td>
+            <td>"Cover up to 0.75 acre — replace your riding mower"</td>
+          </tr>
+          <tr>
+            <td>坡地/不平地形</td>
+            <td><span class="badge badge-green">X7</span> <span class="badge badge-green">S4</span></td>
+            <td>Slopes & Terrain Power / AWD Traction</td>
+            <td>"AWD handles up to 70% slopes" / 坡地实测证据</td>
+          </tr>
+          <tr>
+            <td>安装太复杂/不想埋线</td>
+            <td><span class="badge badge-green">S4</span> <span class="badge badge-gold">V3</span></td>
+            <td>Wire-Free Setup / ReadyGo</td>
+            <td>"No wire, no rework — set up in the app, change anytime"</td>
+          </tr>
+          <tr>
+            <td>宠物/孩子安全</td>
+            <td><span class="badge badge-green">S4</span> <span class="badge badge-gray">X3 Plus</span></td>
+            <td>3D Obstacle Avoidance</td>
+            <td>"3D sensing avoids toys, hoses, pets" / 安全证据视频</td>
+          </tr>
+          <tr>
+            <td>边缘留草/修边麻烦</td>
+            <td><span class="badge badge-green">X7</span> <span class="badge badge-green">S4</span></td>
+            <td>Cut Quality / Edge Strategy</td>
+            <td>"Edge Cutting trims closer along borders" / 贴边实拍</td>
+          </tr>
+          <tr>
+            <td>预算敏感/想入门</td>
+            <td><span class="badge badge-gold">V3</span> <span class="badge badge-gray">X3 Plus</span></td>
+            <td>Budget-Smart / Everyday Simplicity</td>
+            <td>"Starting from $799 — automated mowing made accessible"</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout callout-green" style="margin-top:12px;">
+      <strong>核心原则：</strong>不按品牌讲功能清单，而是按真实院子场景与消费者全旅程痛点来组织广告内容。用"证据型内容"替代"参数型口号"——少救援次数 > "厘米级精度"，真实院子实测 > "AI 智能"。
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ==================== CHAPTER 4: YARD-FIT DECISION FRAMEWORK ==================== -->
+<div class="chapter" id="ch4">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 04</div>
+    <h2>Yard-Fit Decision Framework</h2>
+    <p class="chapter-desc">一套"先评估院子 → 再选型号"的决策系统，把"买错退货"拦在下单前，也是 Asset Group 拆分和 Feed 优化的底层逻辑。</p>
+  </div>
+
+  <!-- 4 Hard Indicators -->
+  <div class="card">
+    <h3>Step 1 — 购前 4 个硬指标（消费者 3-5 分钟自测）</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">先用 4 个可量化指标排除不匹配型号，再做复杂度分流。这套逻辑直接映射到广告的 Feed Title 前置词和 Landing Page 适配诊断。</p>
+
+    <div class="metrics-row">
+      <div class="metric-card">
+        <div class="icon">📐</div>
+        <div class="value" style="font-size:1.1rem;">Mowable Area</div>
+        <div class="label">可割草面积</div>
+        <div style="font-size:0.78rem; color:#5a6b60; margin-top:8px;">扣掉房屋/车道/花坛/泳池，只算草坪。经验规则：实际面积 × 1.3 对照标称（复杂院子用 ×1.5）</div>
+      </div>
+      <div class="metric-card">
+        <div class="icon">⛰️</div>
+        <div class="value" style="font-size:1.1rem;">Max Slope</div>
+        <div class="label">最大坡度</div>
+        <div style="font-size:0.78rem; color:#5a6b60; margin-top:8px;">按"最陡那一段"算，不是平均值。手机水平仪即可测量。坡度不匹配 = 高退货触发器</div>
+      </div>
+      <div class="metric-card">
+        <div class="icon">↔️</div>
+        <div class="value" style="font-size:1.1rem;">Narrowest Passage</div>
+        <div class="label">最窄通道</div>
+        <div style="font-size:0.78rem; color:#5a6b60; margin-top:8px;">房屋与围栏之间、花坛之间、门洞等最窄处。通道太窄是高退货触发器</div>
+      </div>
+      <div class="metric-card">
+        <div class="icon">🔲</div>
+        <div class="value" style="font-size:1.1rem;">Zones</div>
+        <div class="label">分区数量</div>
+        <div style="font-size:0.78rem; color:#5a6b60; margin-top:8px;">前后院、侧院、独立草坪算不同 zone。跨车道/人行道需确认跨区支持</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Area × Slope Matrix -->
+  <div class="card">
+    <h3>Step 2 — 面积 × 坡度快速选型</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">消费者最容易理解的两个维度。先按面积锁定候选，再用坡度做二次筛选。</p>
+
+    <div class="two-col">
+      <!-- Area Column -->
+      <div>
+        <h4>按面积选"最低可用档"</h4>
+        <div style="margin-top:12px;">
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#f0f5f2; border-radius:10px; margin-bottom:8px;">
+            <span class="badge badge-gray" style="min-width:90px; text-align:center;">≤ 0.15 acre</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">~6,000 sq ft</span>
+            <span style="margin-left:auto; font-weight:700; color:#0b3d2e;">→ V3</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#f0f5f2; border-radius:10px; margin-bottom:8px;">
+            <span class="badge badge-green" style="min-width:90px; text-align:center;">≤ 0.25 acre</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">~10,000 sq ft</span>
+            <span style="margin-left:auto; font-weight:700; color:#0b3d2e;">→ S4</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#f0f5f2; border-radius:10px; margin-bottom:8px;">
+            <span class="badge badge-gold" style="min-width:90px; text-align:center;">≤ 0.30 acre</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">~13,000 sq ft</span>
+            <span style="margin-left:auto; font-weight:700; color:#0b3d2e;">→ X3 Plus</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#f0f5f2; border-radius:10px;">
+            <span class="badge badge-blue" style="min-width:90px; text-align:center;">≤ 0.75 acre</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">~32,670 sq ft</span>
+            <span style="margin-left:auto; font-weight:700; color:#0b3d2e;">→ X7</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slope Column -->
+      <div>
+        <h4>坡度优先（不匹配 = 高退货率）</h4>
+        <div style="margin-top:12px;">
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#fef9ee; border-radius:10px; margin-bottom:8px;">
+            <span class="badge badge-gold" style="min-width:90px; text-align:center;">≤ 30% / 17°</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">轻缓坡</span>
+            <span style="margin-left:auto; font-weight:700; color:#6b4a0a;">X3 Plus</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#fef9ee; border-radius:10px; margin-bottom:8px;">
+            <span class="badge badge-gold" style="min-width:90px; text-align:center;">≤ 42% / 22°</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">中等坡</span>
+            <span style="margin-left:auto; font-weight:700; color:#6b4a0a;">V3 · S4</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; padding:12px 16px; background:#fef9ee; border-radius:10px;">
+            <span class="badge badge-gold" style="min-width:90px; text-align:center;">≤ 70% / 35°</span>
+            <span style="font-size:0.88rem; color:#3a4a40;">陡坡（AWD）</span>
+            <span style="margin-left:auto; font-weight:700; color:#6b4a0a;">X7</span>
+          </div>
+        </div>
+        <div class="callout callout-gold" style="margin-top:12px; padding:12px 16px; font-size:0.82rem;">
+          <strong>黄金规则：</strong>面积压线 + 有坡/树/花坛 → 直接上调一档。这是减少退货最有效的简单规则。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Complexity Tiers -->
+  <div class="card">
+    <h3>Step 3 — 院子复杂度二次分流</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">面积和坡度锁定候选后，用复杂度做最终推荐。这三档直接对应 PMax Asset Group 的拆分逻辑。</p>
+
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
+      <!-- Simple -->
+      <div style="background:#f0f5f2; border-radius:14px; padding:22px; border-top:4px solid #22956a;">
+        <div style="font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#1a7a52; margin-bottom:6px;">Tier A</div>
+        <h4 style="margin:0 0 10px; color:#0b3d2e; font-size:1.05rem;">Open & Simple</h4>
+        <p style="font-size:0.82rem; color:#5a6b60; margin-bottom:12px;">单一区域、边界规则、遮挡少、地面平整</p>
+        <div style="font-size:0.85rem; color:#3a4a40;">
+          <strong>推荐：</strong><br>
+          <span class="badge badge-gray" style="margin-top:4px;">V3</span> 小院<br>
+          <span class="badge badge-gray" style="margin-top:4px;">X3 Plus</span> 稍大平院
+        </div>
+        <div style="margin-top:12px; padding-top:10px; border-top:1px solid #d4ddd7;">
+          <div style="font-size:0.75rem; font-weight:600; color:#6b7c72; text-transform:uppercase; letter-spacing:0.5px;">Ad Mapping</div>
+          <div style="font-size:0.82rem; color:#5a6b60; margin-top:4px;">AG: "Everyday Simplicity"<br>Feed: "Open & Flat" 前置</div>
+        </div>
+      </div>
+
+      <!-- Mixed -->
+      <div style="background:#fef9ee; border-radius:14px; padding:22px; border-top:4px solid #f0b429;">
+        <div style="font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#92600a; margin-bottom:6px;">Tier B</div>
+        <h4 style="margin:0 0 10px; color:#0b3d2e; font-size:1.05rem;">Mixed Yard</h4>
+        <p style="font-size:0.82rem; color:#5a6b60; margin-bottom:12px;">2-6 个分区、少量树荫、少量花坛弯边、偶尔窄侧院</p>
+        <div style="font-size:0.85rem; color:#3a4a40;">
+          <strong>推荐：</strong><br>
+          <span class="badge badge-gold" style="margin-top:4px;">X3 Plus</span> ≤0.30 acre<br>
+          <span class="badge badge-gold" style="margin-top:4px;">S4</span> 边界不规则时
+        </div>
+        <div style="margin-top:12px; padding-top:10px; border-top:1px solid #e8dcc4;">
+          <div style="font-size:0.75rem; font-weight:600; color:#6b7c72; text-transform:uppercase; letter-spacing:0.5px;">Ad Mapping</div>
+          <div style="font-size:0.82rem; color:#5a6b60; margin-top:4px;">AG: "Multi-Zone Balance"<br>Feed: "Multi-zone / Mixed" 前置</div>
+        </div>
+      </div>
+
+      <!-- Complex -->
+      <div style="background:#fef2f2; border-radius:14px; padding:22px; border-top:4px solid #ef4444;">
+        <div style="font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#b91c1c; margin-bottom:6px;">Tier C</div>
+        <h4 style="margin:0 0 10px; color:#0b3d2e; font-size:1.05rem;">Complex Yard</h4>
+        <p style="font-size:0.82rem; color:#5a6b60; margin-bottom:12px;">树多遮挡、花坛岛形、边界不规则、通道窄、坡大</p>
+        <div style="font-size:0.85rem; color:#3a4a40;">
+          <strong>推荐：</strong><br>
+          <span class="badge badge-red" style="margin-top:4px;">S4</span> ≤0.25 acre 碎边界<br>
+          <span class="badge badge-red" style="margin-top:4px;">X7</span> 大面积/坡地
+        </div>
+        <div style="margin-top:12px; padding-top:10px; border-top:1px solid #e8c4c4;">
+          <div style="font-size:0.75rem; font-weight:600; color:#6b7c72; text-transform:uppercase; letter-spacing:0.5px;">Ad Mapping</div>
+          <div style="font-size:0.82rem; color:#5a6b60; margin-top:4px;">AG: "Complex Terrain Master"<br>Feed: "Slopes / Complex" 前置</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Per-Model Fit Cards -->
+  <div class="card">
+    <h3>每台机器 — 一句话定位 + 红旗排除</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">"适合你如果"驱动转化，"不适合你如果"拦截退货。这套话术直接用于 Landing Page 适配诊断和 Ad Copy。</p>
+
+    <div class="product-grid">
+      <!-- V3 -->
+      <div class="product-card secondary" style="border-left-color:#9ca3af;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+          <div>
+            <h4>V3 <span style="font-weight:400; font-size:0.82rem; color:#6b7c72;">$799</span></h4>
+            <p style="font-size:0.85rem; color:#1a7a52; font-weight:600; margin:0;">Best for balanced, everyday yards</p>
+          </div>
+          <div class="specs" style="margin:0;">
+            <span class="tag">0.15 Acre</span>
+            <span class="tag">42% Slope</span>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">✅ 适合你如果</div>
+            <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+              <li>小院（~6,000 sq ft 级别）</li>
+              <li>有窄通道（≥80cm）</li>
+              <li>想 No wire / No base station</li>
+              <li>预算敏感、想快速部署</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#b91c1c; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">🚩 红旗 — 不适合你如果</div>
+            <ul style="font-size:0.82rem; color:#7f1d1d; padding-left:16px; margin:0;">
+              <li>面积接近上限还分很多区</li>
+              <li>不想做任何物理布置（磁条/磁钉）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- S4 -->
+      <div class="product-card must-run">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+          <div>
+            <h4>S4 <span style="font-weight:400; font-size:0.82rem; color:#6b7c72;">$1,599</span></h4>
+            <p style="font-size:0.85rem; color:#1a7a52; font-weight:600; margin:0;">Best for complex & irregular yards</p>
+          </div>
+          <div class="specs" style="margin:0;">
+            <span class="tag">0.25 Acre</span>
+            <span class="tag">42% Slope</span>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">✅ 适合你如果</div>
+            <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+              <li>≤10,000 sq ft</li>
+              <li>花坛弯边多、障碍多、边界不规则</li>
+              <li>想要免边界线 + 免外置天线</li>
+              <li>需要多区地图记忆（100 zones / 5 maps）</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#b91c1c; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">🚩 红旗 — 不适合你如果</div>
+            <ul style="font-size:0.82rem; color:#7f1d1d; padding-left:16px; margin:0;">
+              <li>草坪明显超过 0.25 acre</li>
+              <li>想要更高效率一次覆盖大面积（应上调到 X7）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- X3 Plus -->
+      <div class="product-card secondary" style="border-left-color:#f0b429;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+          <div>
+            <h4>X3 Plus <span style="font-weight:400; font-size:0.82rem; color:#6b7c72;">$1,299</span></h4>
+            <p style="font-size:0.85rem; color:#1a7a52; font-weight:600; margin:0;">Best for small & simple yards</p>
+          </div>
+          <div class="specs" style="margin:0;">
+            <span class="tag">0.30 Acre</span>
+            <span class="tag">30% Slope</span>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">✅ 适合你如果</div>
+            <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+              <li>≤13,000 sq ft</li>
+              <li>坡度 ≤30% / 17°</li>
+              <li>最多 6 个分区</li>
+              <li>标准郊区院子，地形不复杂</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#b91c1c; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">🚩 红旗 — 不适合你如果</div>
+            <ul style="font-size:0.82rem; color:#7f1d1d; padding-left:16px; margin:0;">
+              <li>有明显坑洼/台阶/低矮花坛挡边</li>
+              <li>院子复杂度高（碎边界 + 多障碍）→ 选 S4</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- X7 -->
+      <div class="product-card must-run">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+          <div>
+            <h4>X7 <span style="font-weight:400; font-size:0.82rem; color:#6b7c72;">$2,399</span></h4>
+            <p style="font-size:0.85rem; color:#1a7a52; font-weight:600; margin:0;">Best for large, open lawns</p>
+          </div>
+          <div class="specs" style="margin:0;">
+            <span class="tag">0.75 Acre</span>
+            <span class="tag">70% Slope</span>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">✅ 适合你如果</div>
+            <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+              <li>≤32,670 sq ft（0.75 acre）</li>
+              <li>坡度最高 70% / 35°</li>
+              <li>最多 10 个分区</li>
+              <li>想要高效率（14" 双刀盘）</li>
+              <li>从骑乘式割草机升级</li>
+            </ul>
+          </div>
+          <div>
+            <div style="font-size:0.75rem; font-weight:700; color:#b91c1c; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">🚩 红旗 — 不适合你如果</div>
+            <ul style="font-size:0.82rem; color:#7f1d1d; padding-left:16px; margin:0;">
+              <li>院子小且简单 → 这个级别可能超出需要</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Upgrade/Downgrade Paths -->
+  <div class="card">
+    <h3>型号升降级链路 — 防买错导购</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">在 PDP 和 Landing Page 上设置"弱劝导"，把可能买错的用户引向更合适的型号。这不会降低成交，反而减少退货。</p>
+
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
+      <!-- Path 1 -->
+      <div style="background:#fff; border:1px solid #e4eae6; border-radius:14px; padding:20px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+          <span class="badge badge-gold">X3 Plus</span>
+          <span style="font-size:1.1rem; color:#1a7a52;">→</span>
+          <span class="badge badge-green">S4</span>
+        </div>
+        <div style="font-size:0.78rem; font-weight:700; color:#b91c1c; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">用户误区</div>
+        <p style="font-size:0.82rem; color:#5a6b60; margin-bottom:10px;">"我院子不大，X3 Plus 就够了。"</p>
+        <div style="font-size:0.78rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">导购提示</div>
+        <p style="font-size:0.82rem; color:#3a4a40; font-style:italic;">"If your yard is small but fragmented, S4 handles complexity better."</p>
+      </div>
+
+      <!-- Path 2 -->
+      <div style="background:#fff; border:1px solid #e4eae6; border-radius:14px; padding:20px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+          <span class="badge badge-gray">V3</span>
+          <span style="font-size:1.1rem; color:#1a7a52;">→</span>
+          <span class="badge badge-blue">X7</span>
+        </div>
+        <div style="font-size:0.78rem; font-weight:700; color:#b91c1c; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">用户误区</div>
+        <p style="font-size:0.82rem; color:#5a6b60; margin-bottom:10px;">"0.3-0.4 acre 差不多吧？"</p>
+        <div style="font-size:0.78rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">导购提示</div>
+        <p style="font-size:0.82rem; color:#3a4a40; font-style:italic;">"For slopes and uneven terrain, AWD makes the difference."</p>
+      </div>
+
+      <!-- Path 3: Reverse -->
+      <div style="background:#fff; border:1px solid #e4eae6; border-radius:14px; padding:20px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+          <span class="badge badge-blue">X7</span>
+          <span style="font-size:1.1rem; color:#6b7c72;">→</span>
+          <span style="font-size:0.78rem; color:#6b7c72; font-weight:600;">下调</span>
+        </div>
+        <div style="font-size:0.78rem; font-weight:700; color:#92600a; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">反向劝退（建立信任）</div>
+        <p style="font-size:0.82rem; color:#5a6b60; margin-bottom:10px;">在 X7 PDP 必须出现弱劝退</p>
+        <div style="font-size:0.78rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">导购提示</div>
+        <p style="font-size:0.82rem; color:#3a4a40; font-style:italic;">"For small or simple yards, this tier may be more than you need."</p>
+      </div>
+    </div>
+
+    <div class="callout callout-green" style="margin-top:16px;">
+      <strong>品牌信任感来源：</strong>主动告知消费者"你可能不需要这么高配"，不会影响成交率，反而是高端品牌的信任建设手段。同时大幅降低"买贵了→退货"的风险。这套劝导逻辑体现在 Landing Page Fit Page 的适配诊断流程中。
+    </div>
+  </div>
+
+  <!-- How This Drives Ad Strategy -->
+  <div class="card">
+    <h3>Yard-Fit → Ad Strategy 映射</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">这套院子决策系统不只是产品端的工具，它直接决定了广告投放的三个核心维度。</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>决策维度</th>
+            <th>院子评估输出</th>
+            <th>广告投放映射</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>面积分档</strong></td>
+            <td>0.15 / 0.25 / 0.30 / 0.75 acre</td>
+            <td>Feed Title 前置词（"Up to 0.75 Acre | ..."）</td>
+          </tr>
+          <tr>
+            <td><strong>坡度 / 地形</strong></td>
+            <td>Flat / Sloped / Steep + AWD</td>
+            <td>Asset Group 拆分 + Search Ad Group 场景词</td>
+          </tr>
+          <tr>
+            <td><strong>复杂度分档</strong></td>
+            <td>Simple / Mixed / Complex</td>
+            <td>推荐型号分流 + AG 素材角度（如 "Everyday Simplicity" vs "Complex Terrain Master"）</td>
+          </tr>
+          <tr>
+            <td><strong>红旗排除</strong></td>
+            <td>"不适合你如果"清单</td>
+            <td>Fit Page 适配诊断流程 → 推荐正确型号</td>
+          </tr>
+          <tr>
+            <td><strong>升降级链路</strong></td>
+            <td>X3 Plus→S4 / V3→X7 / X7→下调</td>
+            <td>PDP 交叉导购 + Remarketing 二次触达</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== CHAPTER 5: AUDIENCE STRATEGY ==================== -->
+<div class="chapter" id="ch5">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 05</div>
+    <h2>Audience Strategy</h2>
+    <p class="chapter-desc">7 个可运营 Persona 与 SKU 适配矩阵，驱动广告定向、落地页分流与内容策略。</p>
+  </div>
+
+  <!-- 7 Personas -->
+  <div class="card">
+    <h3>7 Personas — 美国 Robot Mower 消费者人群画像</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:20px;">映射到：广告定向（地理+房产+兴趣）、落地页分流（"你的院子适合哪种"）、KOL/频道选择（草坪党/科技党/家庭党/银发党）。</p>
+
+    <div style="display:grid; grid-template-columns: repeat(2,1fr); gap:14px;">
+
+      <!-- P1 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">🏡</span>
+          <span class="badge badge-green">核心人群</span>
+        </div>
+        <h4>P1 · Suburban Time-Saver</h4>
+        <div class="persona-desc">30–50 岁 · 双职工 · 有孩子 · 独栋/联排 · 对"每周割草"厌烦</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>把割草从"周末体力活"变成"自动日常"<br>
+          <strong>最敏感：</strong>安装复杂、卡住需要救援、回桩失败、边缘留草仍需修边
+        </div>
+        <div class="persona-skus">
+          <span class="tag">X7</span><span class="tag">S4</span><span class="tag">X3 Plus</span><span class="tag">V3</span>
+        </div>
+      </div>
+
+      <!-- P2 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">📱</span>
+          <span class="badge badge-blue">科技向</span>
+        </div>
+        <h4>P2 · Smart-Home Optimizer</h4>
+        <div class="persona-desc">28–45 岁 · 中高收入 · 智能设备多 · 愿研究参数但讨厌"黑盒不解释"</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>把院子纳入自动化系统（计划、通知、联动喷灌/天气）<br>
+          <strong>最敏感：</strong>连接不稳定、OTA 回归、缺少可解释数据（信号、覆盖、错误日志）
+        </div>
+        <div class="persona-skus">
+          <span class="tag">X7</span>
+        </div>
+      </div>
+
+      <!-- P3 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">✂️</span>
+          <span class="badge badge-purple">审美向</span>
+        </div>
+        <h4>P3 · Lawn Aesthetics Enthusiast</h4>
+        <div class="persona-desc">35–60 岁 · 草坪投入高 · 追求"地毯感/条纹" · 可能同时拥有修边机</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>更高频、更均匀、更"像高尔夫球场"<br>
+          <strong>最敏感：</strong>贴边差、角落残留、割高一致性、观感不如预期
+        </div>
+        <div class="persona-skus">
+          <span class="tag">X7</span><span class="tag">S4</span>
+        </div>
+      </div>
+
+      <!-- P4 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">🐾</span>
+          <span class="badge badge-gold">安全向</span>
+        </div>
+        <h4>P4 · Pet-Safety Guardian</h4>
+        <div class="persona-desc">30–65 岁 · 养狗/猫 · 院子常有玩具/宠物用品 · 对安全高度敏感</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>省心的前提是"不出事"<br>
+          <strong>最敏感：</strong>低矮物体识别不足、误触发、紧急停止后恢复麻烦
+        </div>
+        <div class="persona-skus">
+          <span class="tag">S4</span><span class="tag">X3 Plus</span><span class="tag">X7</span>
+        </div>
+      </div>
+
+      <!-- P5 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">👴</span>
+          <span class="badge badge-gray">便利向</span>
+        </div>
+        <h4>P5 · Retired / Mobility-Limited</h4>
+        <div class="persona-desc">55+ · 独栋 · 在家时间多 · 更重视服务与可靠，不爱折腾</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>减少体力负担与风险<br>
+          <strong>最敏感：</strong>安装复杂、排障困难、售后慢
+        </div>
+        <div class="persona-skus">
+          <span class="tag">V3</span>
+        </div>
+      </div>
+
+      <!-- P6 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">🔧</span>
+          <span class="badge badge-gray">务实向</span>
+        </div>
+        <h4>P6 · DIY Value Maximizer</h4>
+        <div class="persona-desc">35–60 岁 · 预算敏感 · 愿意 DIY · 更看重耐用和性价比</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>用更低成本实现自动化基础体验<br>
+          <strong>最敏感：</strong>总拥有成本（维护/耗材/电池）、配件供应
+        </div>
+        <div class="persona-skus">
+          <span class="tag">V3</span><span class="tag">X3 Plus</span>
+        </div>
+      </div>
+
+      <!-- P7 -->
+      <div class="persona-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-size:1.4rem;">🏢</span>
+          <span class="badge badge-blue">专业向</span>
+        </div>
+        <h4>P7 · Prosumer / Property Manager</h4>
+        <div class="persona-desc">物业管理 · 短租房东 · HOA · 大地块 · 最看重 uptime 与可维护性</div>
+        <div style="font-size:0.82rem; color:#3a4a40; margin-bottom:8px;">
+          <strong>JTBD：</strong>减少人工与服务成本，稳定覆盖多个区域<br>
+          <strong>最敏感：</strong>频繁救援导致"运营成本反而更高"、售后慢影响 SLA
+        </div>
+        <div class="persona-skus">
+          <span class="tag">S4</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SKU × Persona Matrix -->
+  <div class="card">
+    <h3>SKU × Persona 适配矩阵</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">🟢 主力人群 · 🟡 次要人群 · ⚫ 不适配。每个 SKU 的广告定向、素材、Landing Page 都围绕其主力人群设计。</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>SKU</th>
+            <th>P1<br><span style="font-weight:400; font-size:0.7rem;">Time-Saver</span></th>
+            <th>P2<br><span style="font-weight:400; font-size:0.7rem;">Smart-Home</span></th>
+            <th>P3<br><span style="font-weight:400; font-size:0.7rem;">Aesthetics</span></th>
+            <th>P4<br><span style="font-weight:400; font-size:0.7rem;">Pet-Safety</span></th>
+            <th>P5<br><span style="font-weight:400; font-size:0.7rem;">Retired</span></th>
+            <th>P6<br><span style="font-weight:400; font-size:0.7rem;">DIY Value</span></th>
+            <th>P7<br><span style="font-weight:400; font-size:0.7rem;">Prosumer</span></th>
+            <th>人群承诺句</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>X7</strong></td>
+            <td style="text-align:center;">🟢</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">🟢</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="font-size:0.82rem;">旗舰不是参数堆砌，而是"观感更好 + 过程更可控 + 服务更安心"</td>
+          </tr>
+          <tr>
+            <td><strong>S4</strong></td>
+            <td style="text-align:center;">🟢</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">🟢</td>
+            <td style="font-size:0.82rem;">专为"会把普通 robot mower 弄崩溃的院子"准备——复杂地形也要稳</td>
+          </tr>
+          <tr>
+            <td><strong>V3</strong></td>
+            <td style="text-align:center;">🟢</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">🟢</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="font-size:0.82rem;">更稳健、更容易拥有的"务实自动化"，预算和维护成本都可解释</td>
+          </tr>
+          <tr>
+            <td><strong>X3 Plus</strong></td>
+            <td style="text-align:center;">🟢</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="text-align:center;">🟡</td>
+            <td style="text-align:center;">⚫</td>
+            <td style="font-size:0.82rem;">第一次买 robot mower 也能"可预期地省心"，不把你变成维修工</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== CHAPTER 6: STRATEGIC FRAMEWORK ==================== -->
+<div class="chapter" id="ch6">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 06</div>
+    <h2>Strategic Framework</h2>
+    <p class="chapter-desc">全漏斗渠道角色定义、为什么这样分配、预算逻辑的完整推导。</p>
+  </div>
+
+  <!-- Full Funnel -->
+  <div class="card">
+    <h3>Full-Funnel Strategy — 全漏斗渠道角色</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:20px;">每个渠道在漏斗中有明确分工，不重叠、不遗漏。核心逻辑：<strong>PMax + PLA 吃转化，Search 守品牌 + 试品类，Demand Gen 只喂信号。</strong></p>
+
+    <div class="funnel">
+      <div class="funnel-stage funnel-1">
+        <h4>Awareness</h4>
+        <div style="font-size:2rem; margin-bottom:8px;">🔍</div>
+        <div class="channel">Demand Gen</div>
+        <div class="channel">Search — Product</div>
+        <p style="font-size:0.78rem; margin-top:10px; opacity:0.85;">触达"robot mower"品类兴趣人群，建立 Sunseeker 品牌认知</p>
+      </div>
+      <div class="funnel-stage funnel-2">
+        <h4>Consideration</h4>
+        <div style="font-size:2rem; margin-bottom:8px;">⚖️</div>
+        <div class="channel">PMax (Display/YT)</div>
+        <div class="channel">Search — Product</div>
+        <p style="font-size:0.78rem; margin-top:10px; opacity:0.85;">用院子适配内容和证据型素材，帮用户选对型号</p>
+      </div>
+      <div class="funnel-stage funnel-3">
+        <h4>Conversion</h4>
+        <div style="font-size:2rem; margin-bottom:8px;">💰</div>
+        <div class="channel">PMax (Shopping)</div>
+        <div class="channel">PLA / Shopping</div>
+        <div class="channel">Search — Brand</div>
+        <p style="font-size:0.78rem; margin-top:10px; opacity:0.85;">高意图用户直接转化，Feed 驱动购买决策</p>
+      </div>
+      <div class="funnel-stage funnel-4">
+        <h4>Retention</h4>
+        <div style="font-size:2rem; margin-bottom:8px;">🔄</div>
+        <div class="channel">Demand Gen (RM)</div>
+        <div class="channel">PMax (Signals)</div>
+        <p style="font-size:0.78rem; margin-top:10px; opacity:0.85;">访客再营销 + 购后配件/服务追加</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Channel Role Deep Dive -->
+  <div class="card">
+    <h3>Channel Roles — 为什么选这些渠道、为什么这样分工</h3>
+
+    <div style="display:grid; grid-template-columns: 1fr; gap:16px;">
+
+      <!-- PMax -->
+      <div style="padding:20px; background:#e6f5ec; border-radius:12px; border-left:4px solid #1a7a52;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <strong style="font-size:1.05rem; color:#0b3d2e;">PMax — 主力转化引擎</strong>
+          <span class="badge badge-green">90% 预算（与 PLA 共享）</span>
+        </div>
+        <p style="font-size:0.88rem; color:#3a4a40; margin-bottom:10px;"><strong>为什么是 PMax 而不是纯 Search？</strong></p>
+        <ul style="font-size:0.85rem; color:#3a4a40; padding-left:18px;">
+          <li><strong>Robot mower 是"视觉驱动"品类</strong>——用户需要看到产品在真实院子里工作的画面才会买单。PMax 覆盖 Shopping/Display/YouTube/Discovery/Gmail 全渠道，纯 Search 做不到</li>
+          <li><strong>品类词搜索量有限</strong>——"robot lawn mower" 在美国月搜索量有天花板，纯靠 Search 放不了量。PMax 可以通过 Audience Signals 主动触达潜在买家</li>
+          <li><strong>Feed 是核心资产</strong>——自定义 Feed 把"院子面积 × 地形 × 卖点"结构化，PMax 的 Shopping 渠道直接消费 Feed，转化路径最短</li>
+        </ul>
+        <p style="font-size:0.85rem; color:#3a4a40; margin-top:10px;"><strong>执行方式：</strong>按产品线拆 4 个 Campaign（X7/S4/V3/X3 Plus），每个 Campaign 内按院子适配场景 × 产品卖点 × VOC 痛点拆 3 个 Asset Group，配套自定义 Feed。</p>
+      </div>
+
+      <!-- PLA -->
+      <div style="padding:20px; background:#e6f5ec; border-radius:12px; border-left:4px solid #1a7a52;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <strong style="font-size:1.05rem; color:#0b3d2e;">PLA / Shopping — Feed 驱动的高意图转化</strong>
+          <span class="badge badge-green">与 PMax 共享 90%</span>
+        </div>
+        <p style="font-size:0.88rem; color:#3a4a40; margin-bottom:10px;"><strong>为什么 Feed 是"重中之重"？</strong></p>
+        <ul style="font-size:0.85rem; color:#3a4a40; padding-left:18px;">
+          <li><strong>高意图拦截</strong>——搜"robot lawn mower for large yard"的用户，Shopping 结果直接展示产品图+价格+卖点，比文字广告转化路径更短</li>
+          <li><strong>Feed 即内容</strong>——通过 Title 前置面积/地形/卖点（如 "Up to 0.75 Acre | AWD | Wire-Free"），Feed 本身就是广告文案</li>
+          <li><strong>多变体测试</strong>——每个产品多套 Feed 变体（面积维度/地形维度/痛点维度），配 3 套 Landing Page，持续测试哪套组合转化最优</li>
+        </ul>
+      </div>
+
+      <!-- Search Brand -->
+      <div style="padding:20px; background:#eef4fe; border-radius:12px; border-left:4px solid #3b82f6;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <strong style="font-size:1.05rem; color:#1e3a5f;">Search — Brand 品牌词全覆盖</strong>
+          <span class="badge badge-blue">预算无上限</span>
+        </div>
+        <p style="font-size:0.88rem; color:#3a4a40; margin-bottom:10px;"><strong>为什么"无上限"？</strong></p>
+        <ul style="font-size:0.85rem; color:#3a4a40; padding-left:18px;">
+          <li><strong>品牌词是最高意图流量</strong>——搜 "sunseeker mower" 的用户已经在考虑你了，每一个都不能漏</li>
+          <li><strong>防御性必要</strong>——竞品（Mammotion、Segway）可能投你的品牌词，不投等于拱手让人</li>
+          <li><strong>成本极低</strong>——品牌词 CPC 通常远低于品类词，ROI 天然高，不需要限预算</li>
+        </ul>
+        <p style="font-size:0.85rem; color:#3a4a40; margin-top:10px;"><strong>覆盖范围：</strong>所有品牌拼写变体 + 全型号词（sunseeker / sunseeker mower / sunseeker x7 / sunseeker s4 等），落地页根据搜索词智能匹配。</p>
+      </div>
+
+      <!-- Search Product -->
+      <div style="padding:20px; background:#fef9ee; border-radius:12px; border-left:4px solid #f0b429;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <strong style="font-size:1.05rem; color:#6b4a0a;">Search — Product 品类词放量试错</strong>
+          <span class="badge badge-gold">初期 10%，按效果调整</span>
+        </div>
+        <p style="font-size:0.88rem; color:#3a4a40; margin-bottom:10px;"><strong>为什么"有边界"？</strong></p>
+        <ul style="font-size:0.85rem; color:#3a4a40; padding-left:18px;">
+          <li><strong>品类词竞争激烈、CPC 高</strong>——"robot lawn mower" 这类大词竞争对手都在抢，盲目投入容易烧钱</li>
+          <li><strong>长尾优先策略</strong>——优先投高意图长尾词（"robot mower for slopes"、"no wire robot mower for large yard"），而不是砸大词</li>
+          <li><strong>数据驱动扩量</strong>——初期 10% 预算跑数据，有转化的词加预算，没转化的词及时止损</li>
+        </ul>
+        <p style="font-size:0.85rem; color:#3a4a40; margin-top:10px;"><strong>边界规则：</strong>品类词 Search 不追求规模，追求效率。ROI 不达标的词坚决暂停，预算回流到 PMax + PLA。</p>
+      </div>
+
+      <!-- Demand Gen -->
+      <div style="padding:20px; background:#f0f2f1; border-radius:12px; border-left:4px solid #9ca3af;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <strong style="font-size:1.05rem; color:#3a4a40;">Demand Gen — 流量 + 再营销信号</strong>
+          <span class="badge badge-gray">包含在 PMax 体系内</span>
+        </div>
+        <p style="font-size:0.88rem; color:#3a4a40; margin-bottom:10px;"><strong>为什么"只做信号，不独立追求转化"？</strong></p>
+        <ul style="font-size:0.85rem; color:#3a4a40; padding-left:18px;">
+          <li><strong>Robot mower 决策周期长</strong>——$800–$2,400 的产品不是冲动消费，用户需要多次触达</li>
+          <li><strong>Demand Gen 的价值是"喂数据"</strong>——把触达过的用户变成 PMax 的 Audience Signal，让 PMax 更精准地找到高转化人群</li>
+          <li><strong>避免重复归因</strong>——如果 Demand Gen 独立追求转化，会和 PMax 抢归因，数据会乱</li>
+        </ul>
+        <p style="font-size:0.85rem; color:#3a4a40; margin-top:10px;"><strong>执行方式：</strong>仅投 Traffic 目标 + Remarketing 受众，素材以证据型内容为主（真实院子割草视频、坡地实测、救援账本），为 PMax 积累再营销信号。</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Budget Allocation Logic -->
+  <div class="card">
+    <h3>Budget Allocation Logic — 预算分配推导</h3>
+
+    <h4>渠道间分配：为什么 90 / 10</h4>
+    <div class="table-wrap" style="margin-bottom:20px;">
+      <table>
+        <thead>
+          <tr>
+            <th>渠道</th>
+            <th style="text-align:center;">预算占比</th>
+            <th>逻辑</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>PMax + PLA</strong></td>
+            <td style="text-align:center;">90%</td>
+            <td>视觉驱动品类 + Feed 资产 + 全渠道覆盖 → 转化效率最高。两者共享预算池，按实际 ROAS 动态分配</td>
+          </tr>
+          <tr>
+            <td><strong>Search — Product</strong></td>
+            <td style="text-align:center;">10%</td>
+            <td>品类词 CPC 高、竞争激烈，初期小预算测试，有效果再追加</td>
+          </tr>
+          <tr>
+            <td><strong>Search — Brand</strong></td>
+            <td style="text-align:center;">无上限</td>
+            <td>品牌词量由用户认知驱动，CPC 低、ROI 高，有多少接多少</td>
+          </tr>
+          <tr>
+            <td><strong>Demand Gen</strong></td>
+            <td style="text-align:center;">含在 PMax 内</td>
+            <td>不独立分预算，作为 PMax 信号输入渠道运作</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>产品间分配：为什么 40 / 30 / 25 / 5</h4>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th style="text-align:center;">Budget %</th>
+            <th style="text-align:center;">Target ROI</th>
+            <th>分配逻辑</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>X7</strong></td>
+            <td style="text-align:center;">40%</td>
+            <td style="text-align:center;">4.0x</td>
+            <td>旗舰款 · 客单价最高（$2,399）· 利润空间最大 · 品牌溢价锚点 · 大院子市场需求明确</td>
+          </tr>
+          <tr>
+            <td><strong>S4</strong></td>
+            <td style="text-align:center;">30%</td>
+            <td style="text-align:center;">3.1x</td>
+            <td>新品上市（CES 2026 获奖）· LiDAR 差异化明显 · 复杂院子蓝海市场 · 需要预算建立认知</td>
+          </tr>
+          <tr>
+            <td><strong>V3</strong></td>
+            <td style="text-align:center;">25%</td>
+            <td style="text-align:center;">3.5x</td>
+            <td>入门款 · 客单价低但转化率预期高 · 价格带覆盖 · 承接预算敏感型流量</td>
+          </tr>
+          <tr>
+            <td><strong>X3 Plus</strong></td>
+            <td style="text-align:center;">5%</td>
+            <td style="text-align:center;">1.5x</td>
+            <td>小预算测试 · 市场定位与 V3/S4 有重叠 · 效果好再追加，效果差则预算回流到主力产品</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-green" style="margin-top:16px;">
+      <strong>动态调整原则：</strong>以上比例为初始分配。每两周根据各产品实际 ROAS 进行再分配——ROI 达标的产品追加预算，ROI 持续不达标的产品削减预算回流到主力款。目标是全年加权 ROI ≥ 3.46x。
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== CHAPTER 7: ACCOUNT ARCHITECTURE ==================== -->
+<div class="chapter" id="ch7">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 07</div>
+    <h2>Account Architecture</h2>
+    <p class="chapter-desc">新账户的 Campaign 层级结构、命名规范与完整清单。</p>
+  </div>
+
+  <!-- Structure Diagram -->
+  <div class="card">
+    <h3>Campaign Hierarchy — 层级结构总览</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:20px;">全新干净账户，按<strong>渠道类型 × 产品线</strong>拆分 Campaign，共 8 个 Campaign。</p>
+
+    <div style="padding:24px; background:#f8faf9; border-radius:14px;">
+      <!-- Account Level -->
+      <div style="text-align:center; margin-bottom:20px;">
+        <div style="display:inline-block; background:linear-gradient(135deg,#0b3d2e,#1a7a52); color:#fff; padding:12px 32px; border-radius:12px; font-weight:800; font-size:1.05rem;">
+          Sunseeker US — New Account
+        </div>
+      </div>
+
+      <!-- PMax Row -->
+      <div style="margin-bottom:16px;">
+        <div style="text-align:center; margin-bottom:8px;">
+          <span class="badge badge-green" style="font-size:0.78rem; padding:5px 14px;">PMax — 4 Campaigns × 3 Asset Groups Each</span>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px;">
+          <div style="background:#fff; border:2px solid #1a7a52; border-radius:10px; padding:14px; text-align:center;">
+            <div style="font-weight:800; color:#0b3d2e; margin-bottom:6px;">PMax_X7</div>
+            <div style="font-size:0.75rem; color:#6b7c72;">AG1 · AG2 · AG3</div>
+            <div style="font-size:0.72rem; color:#1a7a52; margin-top:4px;">40% Budget</div>
+          </div>
+          <div style="background:#fff; border:2px solid #1a7a52; border-radius:10px; padding:14px; text-align:center;">
+            <div style="font-weight:800; color:#0b3d2e; margin-bottom:6px;">PMax_S4</div>
+            <div style="font-size:0.75rem; color:#6b7c72;">AG1 · AG2 · AG3</div>
+            <div style="font-size:0.72rem; color:#1a7a52; margin-top:4px;">30% Budget</div>
+          </div>
+          <div style="background:#fff; border:2px solid #f0b429; border-radius:10px; padding:14px; text-align:center;">
+            <div style="font-weight:800; color:#0b3d2e; margin-bottom:6px;">PMax_V3</div>
+            <div style="font-size:0.75rem; color:#6b7c72;">AG1 · AG2 · AG3</div>
+            <div style="font-size:0.72rem; color:#1a7a52; margin-top:4px;">25% Budget</div>
+          </div>
+          <div style="background:#fff; border:2px solid #9ca3af; border-radius:10px; padding:14px; text-align:center;">
+            <div style="font-weight:800; color:#0b3d2e; margin-bottom:6px;">PMax_X3Plus</div>
+            <div style="font-size:0.75rem; color:#6b7c72;">AG1 · AG2 · AG3</div>
+            <div style="font-size:0.72rem; color:#1a7a52; margin-top:4px;">5% Budget</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search + PLA + DG Row -->
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px;">
+        <div style="background:#fff; border:2px solid #3b82f6; border-radius:10px; padding:14px; text-align:center;">
+          <div style="font-weight:800; color:#1e3a5f; margin-bottom:6px;">Search_Brand</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">品牌词 + 型号词</div>
+          <div style="font-size:0.72rem; color:#3b82f6; margin-top:4px;">无上限</div>
+        </div>
+        <div style="background:#fff; border:2px solid #3b82f6; border-radius:10px; padding:14px; text-align:center;">
+          <div style="font-weight:800; color:#1e3a5f; margin-bottom:6px;">Search_Product</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">品类词 + 长尾词</div>
+          <div style="font-size:0.72rem; color:#3b82f6; margin-top:4px;">初期 10%</div>
+        </div>
+        <div style="background:#fff; border:2px solid #1a7a52; border-radius:10px; padding:14px; text-align:center;">
+          <div style="font-weight:800; color:#0b3d2e; margin-bottom:6px;">PLA_Shopping</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">自定义 Feed 驱动</div>
+          <div style="font-size:0.72rem; color:#1a7a52; margin-top:4px;">与 PMax 共享</div>
+        </div>
+        <div style="background:#fff; border:2px solid #9ca3af; border-radius:10px; padding:14px; text-align:center;">
+          <div style="font-weight:800; color:#3a4a40; margin-bottom:6px;">DemandGen_RM</div>
+          <div style="font-size:0.75rem; color:#6b7c72;">Traffic + Remarketing</div>
+          <div style="font-size:0.72rem; color:#6b7c72; margin-top:4px;">含在 PMax 内</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Full Campaign List -->
+  <div class="card">
+    <h3>Campaign Master List — 完整 Campaign 清单</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Campaign</th>
+            <th>Type</th>
+            <th>Objective</th>
+            <th>Bidding</th>
+            <th>Budget</th>
+            <th>Sub-Structure</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>PMax_X7</strong></td>
+            <td><span class="badge badge-green">PMax</span></td>
+            <td>转化 — 旗舰款主力出单</td>
+            <td>Max Conv. / Conv. Value → tROAS</td>
+            <td>PMax 池的 40%</td>
+            <td>3 Asset Groups × 自定义 Feed</td>
+          </tr>
+          <tr>
+            <td><strong>PMax_S4</strong></td>
+            <td><span class="badge badge-green">PMax</span></td>
+            <td>转化 — 新品上市建认知+转化</td>
+            <td>Max Conv. / Conv. Value → tROAS</td>
+            <td>PMax 池的 30%</td>
+            <td>3 Asset Groups × 自定义 Feed</td>
+          </tr>
+          <tr>
+            <td><strong>PMax_V3</strong></td>
+            <td><span class="badge badge-green">PMax</span></td>
+            <td>转化 — 入门款规模出单</td>
+            <td>Max Conv. / Conv. Value → tROAS</td>
+            <td>PMax 池的 25%</td>
+            <td>3 Asset Groups × 自定义 Feed</td>
+          </tr>
+          <tr>
+            <td><strong>PMax_X3Plus</strong></td>
+            <td><span class="badge badge-green">PMax</span></td>
+            <td>测试 — 小预算验证</td>
+            <td>Max Conv. / Conv. Value → tROAS</td>
+            <td>PMax 池的 5%</td>
+            <td>3 Asset Groups × 自定义 Feed</td>
+          </tr>
+          <tr>
+            <td><strong>Search_Brand</strong></td>
+            <td><span class="badge badge-blue">Search</span></td>
+            <td>防御 — 品牌词全覆盖</td>
+            <td>eCPC → tCPA / tROAS</td>
+            <td>无上限</td>
+            <td>按型号拆 Ad Group</td>
+          </tr>
+          <tr>
+            <td><strong>Search_Product</strong></td>
+            <td><span class="badge badge-blue">Search</span></td>
+            <td>拓量 — 品类词高意图转化</td>
+            <td>eCPC → tCPA / tROAS</td>
+            <td>总预算的 10%</td>
+            <td>按意图场景拆 Ad Group</td>
+          </tr>
+          <tr>
+            <td><strong>PLA_Shopping</strong></td>
+            <td><span class="badge badge-green">Shopping</span></td>
+            <td>转化 — Feed 高意图拦截</td>
+            <td>eCPC → tROAS</td>
+            <td>与 PMax 共享</td>
+            <td>按产品 × Feed 维度拆 Listing Group</td>
+          </tr>
+          <tr>
+            <td><strong>DemandGen_RM</strong></td>
+            <td><span class="badge badge-gray">Demand Gen</span></td>
+            <td>信号 — 再营销 + 流量积累</td>
+            <td>Maximize Clicks</td>
+            <td>含在 PMax 体系内</td>
+            <td>Remarketing 受众 + 证据型素材</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-gold" style="margin-top:16px;">
+      <strong>出价策略说明：</strong>PMax 统一采用 Max Conv. / Conv. Value 起步，积累足够转化数据后切换 tROAS。PLA 和 Search 均以 eCPC 起步收集数据，再分别切换到 tROAS（PLA）和 tCPA/tROAS（Search）。所有切换以实际转化量为依据，不设固定时间点。
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== CHAPTER 8: CAMPAIGN PLAN ==================== -->
+<div class="chapter" id="ch8">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 08</div>
+    <h2>Campaign Plan</h2>
+    <p class="chapter-desc">四大广告类型的投放结构与示例，展示每种渠道如何落地执行。</p>
+  </div>
+
+  <!-- ===== PMax ===== -->
+  <div class="card">
+    <h3>PMax — 示例：PMax_X7 · Asset Group 1</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:6px;">每个产品拆 1 个 PMax Campaign × 3 个 Asset Group。以下以 X7 的 Asset Group 1 为例，展示结构逻辑。其余产品（S4/V3/X3 Plus）同理。</p>
+
+    <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
+      <span class="badge badge-green">Campaign: PMax_X7</span>
+      <span class="badge badge-blue">Positioning: 旗舰全能款 — Best for large, open lawns</span>
+    </div>
+
+    <div class="ag-card">
+      <h5>Asset Group 1 — Large Acreage Fit</h5>
+
+      <div class="ag-section">
+        <div class="ag-section-label">Feed Theme（Title 前置）</div>
+        <div class="ag-tags">
+          <span class="tag">Up to 0.75 Acre</span>
+          <span class="tag">Large / Open Lawns</span>
+          <span class="tag">High Coverage Efficiency</span>
+        </div>
+      </div>
+
+      <div class="ag-section">
+        <div class="ag-section-label">Landing Pages（3 套变体测试）</div>
+        <div class="ag-lp">Fit Page — "Is Your Lawn Too Large for Traditional Mowing?"</div>
+        <div class="ag-lp">Evidence Page — Performance, Awards, Coverage Proof</div>
+        <div class="ag-lp">Sale Page — X7 Product Detail</div>
+      </div>
+
+      <div class="ag-section">
+        <div class="ag-section-label">Best For Yard</div>
+        <div class="ag-tags">
+          <span class="tag">Estate-scale lawns</span>
+          <span class="tag">Open suburban properties</span>
+          <span class="tag">Upgrading from riding mowers</span>
+        </div>
+      </div>
+
+      <div class="ag-section">
+        <div class="ag-section-label">Asset 素材需求</div>
+        <ul style="font-size:0.85rem; color:#3a4a40; padding-left:18px; margin:0;">
+          <li><strong>Image：</strong>产品白底图 / 大院子实景割草图 / 覆盖面积对比图</li>
+          <li><strong>Video：</strong>品宣视频 / 产品介绍视频</li>
+          <li><strong>Text：</strong>Headlines 突出 "0.75 Acre / Replace Your Riding Mower / AWD"</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout callout-green" style="margin-top:4px;">
+      <strong>完整结构：</strong>X7 共 3 个 AG（Large Acreage / Slopes & Terrain / Wire-Free Intelligence），S4 共 3 个 AG（Complex Yard / Boundary Precision / Complexity Over Capacity），V3 和 X3 Plus 各 3 个 AG 按同样逻辑拆分。每个 AG 配套独立的自定义 Feed + 3 套 Landing Page 变体。
+    </div>
+  </div>
+
+  <!-- ===== Search ===== -->
+  <div class="card">
+    <h3>Search — 品牌词 + 品类词结构</h3>
+
+    <div class="two-col">
+      <!-- Brand -->
+      <div style="padding:20px; background:#eef4fe; border-radius:12px; border-left:4px solid #3b82f6;">
+        <strong style="color:#1e3a5f; font-size:1rem;">Search_Brand — 品牌词全覆盖</strong>
+        <p style="font-size:0.85rem; color:#3a5a7a; margin:10px 0 8px;"><strong>关键词覆盖：</strong></p>
+        <div class="ag-tags" style="margin-bottom:10px;">
+          <span class="tag">sunseeker mower</span>
+          <span class="tag">sunseeker robot mower</span>
+          <span class="tag">sunseeker x7</span>
+          <span class="tag">sunseeker s4</span>
+          <span class="tag">sunseeker v3</span>
+          <span class="tag">sunseeker x3 plus</span>
+          <span class="tag">sunseeker lawn robot</span>
+        </div>
+        <p style="font-size:0.85rem; color:#3a5a7a;">+ 所有品牌拼写变体（历史搜索词数据）</p>
+        <p style="font-size:0.85rem; color:#3a5a7a; margin-top:8px;"><strong>落地页逻辑：</strong>纯品牌词 → 官网/产品总览页；含型号词 → 直达对应产品 Sale Page</p>
+      </div>
+
+      <!-- Product -->
+      <div style="padding:20px; background:#fef9ee; border-radius:12px; border-left:4px solid #f0b429;">
+        <strong style="color:#6b4a0a; font-size:1rem;">Search_Product — 品类词按意图分组</strong>
+        <p style="font-size:0.85rem; color:#5a4a3a; margin:10px 0 8px;"><strong>示例 Ad Groups：</strong></p>
+        <div style="font-size:0.85rem; color:#5a4a3a;">
+          <p style="margin-bottom:6px;"><strong>By 面积：</strong>robot mower for large yard · mower for small yard</p>
+          <p style="margin-bottom:6px;"><strong>By 地形：</strong>robot mower for slopes · mower for uneven yard</p>
+          <p style="margin-bottom:6px;"><strong>By 卖点：</strong>no wire robot mower · wireless lawn mower</p>
+          <p style="margin-bottom:6px;"><strong>By 场景：</strong>robot mower for hills · mower for complex yard</p>
+        </div>
+        <p style="font-size:0.85rem; color:#5a4a3a; margin-top:8px;"><strong>文案原则：</strong>针对搜索意图匹配 Sunseeker 产品卖点。如 "slopes" → 突出 AWD / 70% 坡度；"large yard" → 突出 0.75 Acre 覆盖</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PLA / Shopping ===== -->
+  <div class="card">
+    <h3>Shopping / PLA — Feed 结构与示例</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">Feed 是 Shopping 的核心资产。通过多维度 Title 优化 + Custom Labels，让产品在搜索结果中精准匹配用户意图。</p>
+
+    <h4>Feed Title 三维度结构</h4>
+    <div class="table-wrap" style="margin-bottom:20px;">
+      <table>
+        <thead>
+          <tr>
+            <th>维度</th>
+            <th>前置关键词</th>
+            <th>示例 Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>① 面积</strong><br><span style="font-size:0.78rem; color:#6b7c72;">放在 Title 最前面</span></td>
+            <td>
+              <div class="ag-tags"><span class="tag">Up to 0.15 Acre</span><span class="tag">Up to 0.25 Acre</span><span class="tag">Up to 0.3 Acre</span><span class="tag">Up to 0.75 Acre</span></div>
+            </td>
+            <td style="font-size:0.85rem;"><em>Up to 0.75 Acre | Sunseeker X7 Robot Lawn Mower | AWD Wire-Free</em></td>
+          </tr>
+          <tr>
+            <td><strong>② 院子形态</strong></td>
+            <td>
+              <div class="ag-tags"><span class="tag">Sloped</span><span class="tag">Multi-zone</span><span class="tag">Complex / Irregular</span><span class="tag">Open & Flat</span></div>
+            </td>
+            <td style="font-size:0.85rem;"><em>For Sloped Yards | Sunseeker X7 AWD Robot Mower | 70% Grade</em></td>
+          </tr>
+          <tr>
+            <td><strong>③ 用户视觉判断</strong></td>
+            <td>
+              <div class="ag-tags"><span class="tag">AWD</span><span class="tag">RTK + Vision AI</span><span class="tag">Wire-free</span><span class="tag">LiDAR 3D</span></div>
+            </td>
+            <td style="font-size:0.85rem;"><em>Wire-Free Setup | Sunseeker S4 LiDAR Robot Mower | No Antenna</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>Landing Page 映射</h4>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:8px;">每套 Feed 配 3 套 Landing Page 变体进行测试：</p>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px;">
+      <div style="padding:14px; background:#f0f5f2; border-radius:10px; text-align:center;">
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Fit Page</div>
+        <div style="font-size:0.82rem; color:#5a6b60;">"你家院子适合吗？"<br>适配诊断 → 推荐型号</div>
+      </div>
+      <div style="padding:14px; background:#f0f5f2; border-radius:10px; text-align:center;">
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Evidence Page</div>
+        <div style="font-size:0.82rem; color:#5a6b60;">性能证据 / 奖项 / 实测数据<br>建立信任</div>
+      </div>
+      <div style="padding:14px; background:#f0f5f2; border-radius:10px; text-align:center;">
+        <div style="font-weight:700; color:#0b3d2e; margin-bottom:4px;">Sale Page</div>
+        <div style="font-size:0.82rem; color:#5a6b60;">产品详情页<br>直接转化</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Demand Gen ===== -->
+  <div class="card">
+    <h3>Demand Gen — 流量 + 再营销信号</h3>
+    <p style="font-size:0.88rem; color:#5a6b60; margin-bottom:16px;">Demand Gen 不独立追求转化，只做两件事：触达潜在用户 + 为 PMax 积累再营销信号。</p>
+
+    <div class="two-col">
+      <div>
+        <h4>受众定位</h4>
+        <ul style="font-size:0.85rem; color:#3a4a40;">
+          <li><strong>Remarketing：</strong>官网访客、产品页浏览者、加购未付款</li>
+          <li><strong>Custom Segments：</strong>搜索过 robot mower 相关词的用户</li>
+          <li><strong>Affinity：</strong>Home & Garden / Smart Home / Outdoor Enthusiasts</li>
+        </ul>
+      </div>
+      <div>
+        <h4>素材原则</h4>
+        <ul style="font-size:0.85rem; color:#3a4a40;">
+          <li><strong>只投"证据型"素材</strong>——真实院子割草视频、坡地实测、救援账本</li>
+          <li><strong>不投"参数型"素材</strong>——避免空泛的"AI 智能""厘米级精度"</li>
+          <li><strong>格式：</strong>YouTube 视频广告 + Discovery 图片广告 + Gmail 广告</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout callout-blue" style="margin-top:16px;">
+      <strong>与 PMax 的协同：</strong>Demand Gen 触达的用户会进入 PMax 的 Audience Signal 池。PMax 利用这些再营销信号，在 Shopping/Display/YouTube 渠道上对这些已触达用户进行更精准的转化投放，形成闭环。
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== CHAPTER 9: TIMELINE & MILESTONES ==================== -->
+<div class="chapter" id="ch9">
+  <div class="chapter-header">
+    <div class="chapter-num">Chapter 09</div>
+    <h2>Timeline & Milestones</h2>
+    <p class="chapter-desc">对齐美国割草季节的全年执行节奏，从搭建到冲量到复盘，每个阶段有清晰的里程碑和交付物。</p>
+  </div>
+
+  <!-- Annual Budget Bar Visualization -->
+  <div class="card">
+    <h3>2026 月度预算节奏 — 全年鸟瞰</h3>
+    <div style="display:flex; gap:2px; height:120px; align-items:flex-end; margin:20px 0 8px; padding:0 4px;">
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$1.2K</span>
+        <div style="width:100%; background:linear-gradient(to top, #93c5fd, #bfdbfe); border-radius:6px 6px 0 0; height:2%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Jan</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$1.2K</span>
+        <div style="width:100%; background:linear-gradient(to top, #93c5fd, #bfdbfe); border-radius:6px 6px 0 0; height:2%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Feb</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$29.6K</span>
+        <div style="width:100%; background:linear-gradient(to top, #f0b429, #fcd34d); border-radius:6px 6px 0 0; height:44%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Mar</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$50.6K</span>
+        <div style="width:100%; background:linear-gradient(to top, #1a7a52, #22956a); border-radius:6px 6px 0 0; height:76%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Apr</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$58.4K</span>
+        <div style="width:100%; background:linear-gradient(to top, #1a7a52, #22956a); border-radius:6px 6px 0 0; height:87%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">May</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$66.8K</span>
+        <div style="width:100%; background:linear-gradient(to top, #0b3d2e, #145a3e); border-radius:6px 6px 0 0; height:100%;"></div>
+        <span style="font-size:0.68rem; color:#0b3d2e; font-weight:700;">Jun</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$63.9K</span>
+        <div style="width:100%; background:linear-gradient(to top, #145a3e, #1a7a52); border-radius:6px 6px 0 0; height:96%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Jul</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$25.3K</span>
+        <div style="width:100%; background:linear-gradient(to top, #f59e0b, #fbbf24); border-radius:6px 6px 0 0; height:38%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Aug</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$11.4K</span>
+        <div style="width:100%; background:linear-gradient(to top, #f59e0b, #fbbf24); border-radius:6px 6px 0 0; height:17%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Sep</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$2.4K</span>
+        <div style="width:100%; background:linear-gradient(to top, #d1d5db, #e5e7eb); border-radius:6px 6px 0 0; height:4%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Oct</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$2.4K</span>
+        <div style="width:100%; background:linear-gradient(to top, #d1d5db, #e5e7eb); border-radius:6px 6px 0 0; height:4%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Nov</span>
+      </div>
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <span style="font-size:0.65rem; color:#6b7c72; font-weight:600;">$2.4K</span>
+        <div style="width:100%; background:linear-gradient(to top, #d1d5db, #e5e7eb); border-radius:6px 6px 0 0; height:4%;"></div>
+        <span style="font-size:0.68rem; color:#6b7c72;">Dec</span>
+      </div>
+    </div>
+    <!-- Phase Legend -->
+    <div style="display:flex; gap:20px; justify-content:center; margin-top:12px; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; gap:6px; font-size:0.75rem; color:#6b7c72;">
+        <div style="width:12px; height:12px; border-radius:3px; background:#93c5fd;"></div> Foundation
+      </div>
+      <div style="display:flex; align-items:center; gap:6px; font-size:0.75rem; color:#6b7c72;">
+        <div style="width:12px; height:12px; border-radius:3px; background:#f0b429;"></div> Launch & Learn
+      </div>
+      <div style="display:flex; align-items:center; gap:6px; font-size:0.75rem; color:#6b7c72;">
+        <div style="width:12px; height:12px; border-radius:3px; background:#1a7a52;"></div> Peak Season
+      </div>
+      <div style="display:flex; align-items:center; gap:6px; font-size:0.75rem; color:#6b7c72;">
+        <div style="width:12px; height:12px; border-radius:3px; background:#f59e0b;"></div> Wind Down
+      </div>
+      <div style="display:flex; align-items:center; gap:6px; font-size:0.75rem; color:#6b7c72;">
+        <div style="width:12px; height:12px; border-radius:3px; background:#d1d5db;"></div> Maintain & Plan
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase Timeline -->
+  <div class="card" style="padding:32px 28px;">
+    <h3>执行阶段 & 里程碑</h3>
+
+    <!-- Phase 1: Foundation -->
+    <div style="position:relative; padding-left:48px; padding-bottom:36px; border-left:3px solid #93c5fd; margin-left:16px;">
+      <div style="position:absolute; left:-18px; top:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, #3b82f6, #60a5fa); display:flex; align-items:center; justify-content:center;">
+        <span style="color:#fff; font-size:0.72rem; font-weight:800;">1</span>
+      </div>
+      <div style="margin-bottom:4px;">
+        <span style="font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#3b82f6;">Phase 1 — Foundation</span>
+        <span style="font-size:0.82rem; color:#6b7c72; margin-left:8px;">Jan – Feb · $1,200/mo</span>
+      </div>
+      <h4 style="font-size:1.05rem; color:#0b3d2e; margin:8px 0 12px;">搭建期 — 基础设施 & 素材准备</h4>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#3b82f6; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Account Setup</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>Google Ads 账户结构搭建（8 Campaigns）</li>
+            <li>Conversion Tracking 部署 & 验证</li>
+            <li>Google Merchant Center Feed 上传</li>
+            <li>GA4 + Google Ads 关联</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#3b82f6; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Creative & Feed</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>4 产品 × 3 Feed 变体 = 12 套 Feed Title</li>
+            <li>产品图片/视频素材收集 & 裁切</li>
+            <li>Landing Page 3 套变体搭建（Fit / Evidence / Sale）</li>
+            <li>品牌词 + 品类词关键词库整理</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:12px; padding:10px 14px; background:#eef4fe; border-radius:8px; font-size:0.82rem; color:#1e3a5f;">
+        <strong>里程碑 ✓</strong> 所有 Campaign 处于 Draft / Paused 状态，Tracking 验证通过，Feed 审核通过
+      </div>
+    </div>
+
+    <!-- Phase 2: Launch & Learn -->
+    <div style="position:relative; padding-left:48px; padding-bottom:36px; border-left:3px solid #f0b429; margin-left:16px;">
+      <div style="position:absolute; left:-18px; top:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, #d97706, #f0b429); display:flex; align-items:center; justify-content:center;">
+        <span style="color:#fff; font-size:0.72rem; font-weight:800;">2</span>
+      </div>
+      <div style="margin-bottom:4px;">
+        <span style="font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#d97706;">Phase 2 — Launch & Learn</span>
+        <span style="font-size:0.82rem; color:#6b7c72; margin-left:8px;">Mar · $29,611</span>
+      </div>
+      <h4 style="font-size:1.05rem; color:#0b3d2e; margin:8px 0 12px;">爬坡期 — 启动投放 & 数据学习</h4>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#d97706; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Campaign Launch</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>PMax_X7 + PMax_S4 优先启动（必投款）</li>
+            <li>Search_Brand 同步上线（品牌防御）</li>
+            <li>PMax_V3 第二周跟进</li>
+            <li>PMax_X3Plus 小预算试水</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#d97706; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Data Collection</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>PMax 学习期 ~2 周，不做大调整</li>
+            <li>监控 Conversion Tracking 数据回传</li>
+            <li>收集搜索词报告，首轮否词</li>
+            <li>Feed 表现初评（CTR / Conversion / ROI）</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:12px; padding:10px 14px; background:#fef9ee; border-radius:8px; font-size:0.82rem; color:#6b4a0a;">
+        <strong>里程碑 ✓</strong> 所有 PMax 通过学习期、首批转化数据回传、Search Brand IS > 80%
+      </div>
+    </div>
+
+    <!-- Phase 3: Peak Season -->
+    <div style="position:relative; padding-left:48px; padding-bottom:36px; border-left:3px solid #1a7a52; margin-left:16px;">
+      <div style="position:absolute; left:-18px; top:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, #0b3d2e, #1a7a52); display:flex; align-items:center; justify-content:center;">
+        <span style="color:#fff; font-size:0.72rem; font-weight:800;">3</span>
+      </div>
+      <div style="margin-bottom:4px;">
+        <span style="font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#1a7a52;">Phase 3 — Peak Season</span>
+        <span style="font-size:0.82rem; color:#6b7c72; margin-left:8px;">Apr – Jul · $50K–$67K/mo</span>
+      </div>
+      <h4 style="font-size:1.05rem; color:#0b3d2e; margin:8px 0 12px;">旺季冲量 — 全力投放 & 持续优化</h4>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Scale & Optimize</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>逐月递增预算至峰值（Jul $67K）</li>
+            <li>出价策略切换：Max Conv. → tROAS</li>
+            <li>AG 表现评估：暂停低效 AG，预算倾斜高 ROI AG</li>
+            <li>Search_Product 品类词 Campaign 启动拓量</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#1a7a52; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Key Decisions</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>May 底：X3 Plus 去留决策（ROI 达标则加码，否则砍）</li>
+            <li>Feed A/B 测试：面积 vs 地形 vs 卖点前置</li>
+            <li>Landing Page 变体胜出确认</li>
+            <li>Demand Gen 再营销信号积累评估</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:12px; padding:10px 14px; background:#e6f5ec; border-radius:8px; font-size:0.82rem; color:#0b4d2e;">
+        <strong>里程碑 ✓</strong> 全 Campaign tROAS 切换完成、X3 Plus 去留已定、LP 胜出变体锁定、月 ROI ≥ 产品目标
+      </div>
+    </div>
+
+    <!-- Phase 4: Wind Down -->
+    <div style="position:relative; padding-left:48px; padding-bottom:36px; border-left:3px solid #f59e0b; margin-left:16px;">
+      <div style="position:absolute; left:-18px; top:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, #b45309, #f59e0b); display:flex; align-items:center; justify-content:center;">
+        <span style="color:#fff; font-size:0.72rem; font-weight:800;">4</span>
+      </div>
+      <div style="margin-bottom:4px;">
+        <span style="font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#b45309;">Phase 4 — Wind Down</span>
+        <span style="font-size:0.82rem; color:#6b7c72; margin-left:8px;">Aug – Sep · $25K → $11K</span>
+      </div>
+      <h4 style="font-size:1.05rem; color:#0b3d2e; margin:8px 0 12px;">收缩期 — 保利润 & 收数据</h4>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#b45309; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Budget Reduction</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>逐步缩减预算，优先砍低 ROI Campaign</li>
+            <li>保留 Search_Brand + 最高 ROI 的 PMax AG</li>
+            <li>PLA 缩减至核心 SKU</li>
+            <li>Demand Gen 暂停</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#b45309; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Season Review</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>全季搜索词报告汇总 → 否词库更新</li>
+            <li>AG × Feed × LP 组合胜负盘点</li>
+            <li>各产品实际 ROI vs 目标对比</li>
+            <li>转化延迟数据回补 & 修正</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:12px; padding:10px 14px; background:#fef9ee; border-radius:8px; font-size:0.82rem; color:#6b4a0a;">
+        <strong>里程碑 ✓</strong> 旺季全数据回补完成、产品级 ROI 结算、胜出 AG/Feed/LP 组合文档化
+      </div>
+    </div>
+
+    <!-- Phase 5: Maintain & Plan -->
+    <div style="position:relative; padding-left:48px; padding-bottom:8px; margin-left:16px;">
+      <div style="position:absolute; left:-18px; top:0; width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, #6b7280, #9ca3af); display:flex; align-items:center; justify-content:center;">
+        <span style="color:#fff; font-size:0.72rem; font-weight:800;">5</span>
+      </div>
+      <div style="margin-bottom:4px;">
+        <span style="font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#6b7280;">Phase 5 — Maintain & Plan</span>
+        <span style="font-size:0.82rem; color:#6b7c72; margin-left:8px;">Oct – Dec · $2,418/mo</span>
+      </div>
+      <h4 style="font-size:1.05rem; color:#0b3d2e; margin:8px 0 12px;">维护期 — 品牌守住 & 规划下一年</h4>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">Maintenance</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>仅保留 Search_Brand 低预算运行</li>
+            <li>PMax / PLA / Search_Product 全部暂停</li>
+            <li>否词库维护、品牌词监控</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">2027 Planning</div>
+          <ul style="font-size:0.82rem; color:#3a4a40; padding-left:16px; margin:0;">
+            <li>全年投放复盘报告</li>
+            <li>2027 产品线更新 → 新 Feed / AG 规划</li>
+            <li>素材库更新需求清单</li>
+            <li>预算模型修正（基于 2026 实际数据）</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:12px; padding:10px 14px; background:#f0f2f1; border-radius:8px; font-size:0.82rem; color:#3a4a40;">
+        <strong>里程碑 ✓</strong> 全年复盘完成、2027 Media Plan 框架定稿、素材需求清单交付品牌方
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- NEXT_CHAPTER_INSERTION_POINT -->
+
+</div><!-- /container -->
+
+<div class="footer">
+  <p>Confidential — Sunseeker 2026 Google Ads Media Plan — Prepared by Satori — February 2026</p>
+</div>
+
+</body>
+</html>
